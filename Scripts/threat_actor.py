@@ -37,6 +37,3 @@ def scrape_threat_actor():
             json.dump(data, file, indent=4)
     except Exception as e:
         print("Exception:", e)
-
-if __name__ == "__main__":
-    scrape_threat_actor()
