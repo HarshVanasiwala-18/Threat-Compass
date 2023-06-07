@@ -1,0 +1,302 @@
+[
+    {
+        "CVE ID": "CVE-2013-4279",
+        "CVSS Score": 5.0,
+        "Published Date": "2014-04-18",
+        "Published Time": "22:14:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:59:00",
+        "Description": "imapsync 1.564 and earlier performs a release check by default, which sends sensitive information (imapsync, operating system, and Perl version) to the developer's site.",
+        "References": "http://www.mandriva.com/security/advisories?name=MDVSA-2014:060,https://bugzilla.redhat.com/show_bug.cgi?id=1000215,http://www.securityfocus.com/bid/65002,http://lists.fedoraproject.org/pipermail/package-announce/2014-March/130493.html"
+    },
+    {
+        "CVE ID": "CVE-2014-2014",
+        "CVSS Score": 4.3,
+        "Published Date": "2014-04-18",
+        "Published Time": "22:14:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:59:00",
+        "Description": "imapsync before 1.584, when running with the --tls option, attempts a cleartext login when a certificate verification failure occurs, which allows remote attackers to obtain credentials by sniffing the network.",
+        "References": "http://seclists.org/oss-sec/2014/q1/367,https://github.com/imapsync/imapsync/issues/15,http://www.mandriva.com/security/advisories?name=MDVSA-2014:060,https://lists.fedoraproject.org/pipermail/package-announce/2014-February/128293.html,https://bugs.mageia.org/show_bug.cgi?id=12770,http://www.linux-france.org/prj/imapsync_list/msg01910.html,http://www.linux-france.org/prj/imapsync_list/msg01907.html,http://seclists.org/oss-sec/2014/q1/378"
+    },
+    {
+        "CVE ID": "CVE-2023-34151",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-05-30",
+        "Published Time": "22:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:57:00",
+        "Description": "A vulnerability was found in ImageMagick. This security flaw ouccers as an undefined behaviors of casting double to size_t in svg, mvg and other coders (recurring bugs of CVE-2022-32546).",
+        "References": "https://access.redhat.com/security/cve/CVE-2023-34151,https://bugzilla.redhat.com/show_bug.cgi?id=2210657,https://github.com/ImageMagick/ImageMagick/issues/6341,https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/V2ZUHZXQ2C3JZYKPW4XHCMVVL467MA2V/"
+    },
+    {
+        "CVE ID": "CVE-2023-30285",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-05-31",
+        "Published Time": "12:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:46:00",
+        "Description": "An issue in Deviniti Issue Sync Synchronization v3.5.2 for Jira allows attackers to obtain the login credentials of a user via a crafted request sent to /rest/synchronizer/1.0/technicalUser.",
+        "References": "https://github.com/D23K4N/CVE/blob/main/CVE-2023-30285.md,http://issue.com,http://deviniti.com"
+    },
+    {
+        "CVE ID": "CVE-2023-25539",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-05-31",
+        "Published Time": "05:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:45:00",
+        "Description": "Dell NetWorker 19.6.1.2, contains an OS command injection Vulnerability in the NetWorker client. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the application's underlying OS, with the privileges of the vulnerable application. This is a high severity vulnerability as the exploitation allows an attacker to take complete control of a system, so Dell recommends customers to upgrade at the earliest opportunity.",
+        "References": "https://www.dell.com/support/kbdoc/en-us/000211267/dsa-2023-060-dell-networker-security-update-for-an-nsrcapinfo-vulnerability"
+    },
+    {
+        "CVE ID": "CVE-2023-30197",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-05-31",
+        "Published Time": "01:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:34:00",
+        "Description": "Incorrect Access Control in the module \"My inventory\" (myinventory) <= 1.6.6 from Webbax for PrestaShop, allows a guest to download personal information without restriction by performing a path traversal attack.",
+        "References": "https://friends-of-presta.github.io/security-advisories/modules/2023/05/30/myinventory.html,https://github.com/PrestaShop/PrestaShop/blob/6c05518b807d014ee8edb811041e3de232520c28/classes/Tools.php#L1247"
+    },
+    {
+        "CVE ID": "CVE-2020-36705",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "13:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:15:00",
+        "Description": "The Adning Advertising plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the _ning_upload_image function in versions up to, and including, 1.5.5. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected sites server which may make remote code execution possible.",
+        "References": "https://www.wordfence.com/threat-intel/vulnerabilities/id/4a263b74-e9ae-4fd2-be9b-9b8e9eee5982?source=cve,https://www.wordfence.com/blog/2020/07/critical-vulnerabilities-patched-in-adning-advertising-plugin/,https://codecanyon.net/item/wp-pro-advertising-system-all-in-one-ad-manager/269693,https://blog.nintechnet.com/critical-vulnerability-in-adning-advertising-plugin-actively-exploited-in-the-wild/,https://wpscan.com/vulnerability/e9873fe3-fc06-4a52-aa32-6922cab7830c"
+    },
+    {
+        "CVE ID": "CVE-2021-4337",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "13:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:15:00",
+        "Description": "Sixteen XforWooCommerce Add-On Plugins for WordPress are vulnerable to authorization bypass due to a missing capability check on the wp_ajax_svx_ajax_factory function in various versions listed below. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to read, edit, or delete WordPress settings, plugin settings, and to arbitrarily list all users on a WordPress website. The plugins impacted are: Product Filter for WooCommerce < 8.2.0, Improved Product Options for WooCommerce < 5.3.0, Improved Sale Badges for WooCommerce < 4.4.0, Share, Print and PDF Products for WooCommerce < 2.8.0, Product Loops for WooCommerce < 1.7.0, XforWooCommerce < 1.7.0, Package Quantity Discount < 1.2.0, Price Commander for WooCommerce < 1.3.0, Comment and Review Spam Control for WooCommerce < 1.5.0, Add Product Tabs for WooCommerce < 1.5.0, Autopilot SEO for WooCommerce < 1.6.0, Floating Cart < 1.3.0, Live Search for WooCommerce < 2.1.0, Bulk Add to Cart for WooCommerce < 1.3.0, Live Product Editor for WooCommerce < 4.7.0, and Warranties and Returns for WooCommerce < 5.3.0.",
+        "References": "https://blog.nintechnet.com/16-woocommerce-product-add-ons-plugins-fixed-vulnerabilities/,https://www.wordfence.com/threat-intel/vulnerabilities/id/05481984-7c18-4ec7-8d7c-831809c3e86b?source=cve,https://xforwoocommerce.com/blog/change-log/xforwoocommerce-1-7-0/"
+    },
+    {
+        "CVE ID": "CVE-2020-36728",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "13:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:15:00",
+        "Description": "The Adning Advertising plugin for WordPress is vulnerable to file deletion via path traversal in versions up to, and including, 1.5.5. This allows unauthenticated attackers to delete arbitrary files which can be used to reset and gain full control of a site.",
+        "References": "https://www.wordfence.com/blog/2020/07/critical-vulnerabilities-patched-in-adning-advertising-plugin/,https://codecanyon.net/item/wp-pro-advertising-system-all-in-one-ad-manager/269693,https://blog.nintechnet.com/critical-vulnerability-in-adning-advertising-plugin-actively-exploited-in-the-wild/,https://www.wordfence.com/threat-intel/vulnerabilities/id/e7506429-7f8a-45b5-b1b0-6fdb39599ee5?source=cve"
+    },
+    {
+        "CVE ID": "CVE-2021-4379",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "13:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:15:00",
+        "Description": "The WooCommerce Multi Currency plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on the wmc_bulk_fixed_price function in versions up to, and including, 2.1.17. This makes it possible for authenticated attackers, with subscriber-level permissions and above, to make changes to product prices.",
+        "References": "https://www.wordfence.com/threat-intel/vulnerabilities/id/e2318ae9-4115-442e-9293-a9251787c5f3?source=cve,https://codecanyon.net/item/woocommerce-multi-currency/20948446,https://blog.nintechnet.com/vulnerability-fixed-in-wordpress-woocommerce-multi-currency-plugin/"
+    },
+    {
+        "CVE ID": "CVE-2021-4380",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "13:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "13:15:00",
+        "Description": "The Pinterest Automatic plugin for WordPress is vulnerable to authorization bypass due to missing capability checks on the 'wp_pinterest_automatic_parse_request' function and the 'process_form.php' script in versions up to, and including, 1.14.3. This makes it possible for unauthenticated attackers to update arbitrary options on a site that can be used to create new administrative user accounts or redirect unsuspecting site visitors.",
+        "References": "https://www.wordfence.com/threat-intel/vulnerabilities/id/e4fdc902-4cfe-4116-a294-9a0fcb2de346?source=cve,https://blog.nintechnet.com/critical-vulnerability-fixed-in-wordpress-pinterest-automatic-plugin/,https://wpscan.com/vulnerability/ffd344fd-de2c-4f27-8932-41aa0a3c3d05,https://www.acunetix.com/vulnerabilities/web/wordpress-plugin-pinterest-automatic-pin-security-bypass-4-14-3/"
+    },
+    {
+        "CVE ID": "CVE-2023-30758",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-01",
+        "Published Time": "02:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:57:00",
+        "Description": "Cross-site scripting vulnerability in Pleasanter 1.3.38.1 and earlier allows a remote authenticated attacker to inject an arbitrary script.",
+        "References": "https://github.com/Implem/Implem.Pleasanter/issues/474,https://pleasanter.org/archives/vulnerability-update-202305,https://jvn.jp/en/jp/JVN62111727/"
+    },
+    {
+        "CVE ID": "CVE-2023-3059",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-02",
+        "Published Time": "13:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:55:00",
+        "Description": "A vulnerability, which was classified as critical, was found in SourceCodester Online Exam Form Submission 1.0. This affects an unknown part of the file /admin/update_s6.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-230565 was assigned to this vulnerability.",
+        "References": "https://github.com/Aiiimer/requestCVE/blob/main/SQL.md,https://vuldb.com/?ctiid.230565,https://vuldb.com/?id.230565"
+    },
+    {
+        "CVE ID": "CVE-2023-3140",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "10:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "Missing HTTP headers (X-Frame-Options, Content-Security-Policy) in KNIME Business Hub before 1.4.0 has left users vulnerable to click jacking. Clickjacking is an attack that occurs when an attacker uses a transparent iframe in a window to trick a user into clicking on an actionable item, such as a button or link, to another server in which they have an identical webpage. The attacker essentially hijacks the user activity intended for the original server and sends them to the other server.",
+        "References": "https://www.knime.com/security/advisories#CVE-2023-3140"
+    },
+    {
+        "CVE ID": "CVE-2023-2187",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "07:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "On Triangle MicroWorks' SCADA Data Gateway version <= v5.01.03, an unauthenticated attacker can send broadcast events to any user via the WebMonitor.An unauthenticated user can use this vulnerability to forcefully log out of any currently logged-in user by sending a \"password change event\". Furthermore, an attacker could use this vulnerability to spam the logged-in user with false events.",
+        "References": "https://www.trellix.com/en-us/about/newsroom/stories/research/industrial-and-manufacturing-cves.html"
+    },
+    {
+        "CVE ID": "CVE-2023-2186",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "07:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "On Triangle MicroWorks' SCADA Data Gateway version <= v5.01.03, an unauthenticated attacker can send a specially crafted broadcast message including format string characters to the SCADA Data Gateway to perform unrestricted memory reads.An unauthenticated user can use this format string vulnerability to repeatedly crash the GTWWebMonitor.exe process to DoS the Web Monitor.  Furthermore, an authenticated user can leverage this vulnerability to leak memory from the GTWWebMonitor.exe process. This could be leveraged in an exploit chain to gain code execution.",
+        "References": "https://www.trellix.com/en-us/about/newsroom/stories/research/industrial-and-manufacturing-cves.html"
+    },
+    {
+        "CVE ID": "CVE-2023-0976",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "08:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "A heap-based overflow vulnerability in TA prior to version 5.7.9 allows a remote user to alter the page heap in the macmnsvc process memory block, resulting in the service becoming unavailable.",
+        "References": "https://kcm.trellix.com/corporate/index?page=content&id=SB10398"
+    },
+    {
+        "CVE ID": "CVE-2023-1388",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "08:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "A heap-based overflow vulnerability in TA prior to version 5.7.9 allows a remote user to alter the page heap in the macmnsvc process memory block, resulting in the service becoming unavailable.",
+        "References": "https://kcm.trellix.com/corporate/index?page=content&id=SB10398"
+    },
+    {
+        "CVE ID": "CVE-2023-2541",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "09:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "The Web Frontend of KNIME Business Hub before 1.4.0 allows an unauthenticated remote attacker to access internals about the application such as versions, host names, or IP addresses. No personal information or application data was exposed.",
+        "References": "https://www.knime.com/security/advisories#CVE-2023-2541"
+    },
+    {
+        "CVE ID": "CVE-2023-30575",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "09:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "Apache Guacamole 1.5.1 and older may incorrectly calculate the lengths of instruction elements sent during the Guacamole protocol handshake, potentially allowing an attacker to inject Guacamole instructions during the handshake through specially-crafted data.",
+        "References": "https://lists.apache.org/thread/tn63n2lon0h5p45oft834t1dqvvxownv"
+    },
+    {
+        "CVE ID": "CVE-2023-30576",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "09:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "Apache Guacamole 0.9.10 through 1.5.1 may continue to reference a freed RDP audio input buffer. Depending on timing, this may allow an attacker to execute arbitrary code with the privileges of the guacd process.",
+        "References": "https://lists.apache.org/thread/vgtvxb3w7mm84hx6v8dfc0onsoz05gb6"
+    },
+    {
+        "CVE ID": "CVE-2023-0667",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "03:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "Due to failure in validating the length provided by an attacker-crafted MSMMS packet, Wireshark version 4.0.5 and prior, in an unusual configuration, is susceptible to a heap-based buffer overflow, and possibly code execution in the context of the process running Wireshark",
+        "References": "https://gitlab.com/wireshark/wireshark/-/issues/19086,https://takeonme.org/cves/CVE-2023-0667.html"
+    },
+    {
+        "CVE ID": "CVE-2023-0668",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "03:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "Due to failure in validating the length provided by an attacker-crafted IEEE-C37.118 packet, Wireshark version 4.0.5 and prior, by default, is susceptible to a heap-based buffer overflow, and possibly code execution in the context of the process running Wireshark.",
+        "References": "https://takeonme.org/cves/CVE-2023-0668.html,https://gitlab.com/wireshark/wireshark/-/issues/19087,https://www.wireshark.org/security/wnpa-sec-2023-19.html,https://www.wireshark.org/docs/relnotes/wireshark-4.0.6.html"
+    },
+    {
+        "CVE ID": "CVE-2023-33536",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "04:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 was discovered to contain a buffer overflow via the component /userRpm/WlanMacFilterRpm.",
+        "References": "https://github.com/a101e-IoTvul/iotvul/blob/main/tp-link/2/TL-WR940N_TL-WR841N_TL-WR740N_userRpm_WlanMacFilterRpm.md"
+    },
+    {
+        "CVE ID": "CVE-2023-33537",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "04:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 was discovered to contain a buffer overflow via the component /userRpm/FixMapCfgRpm.",
+        "References": "https://github.com/a101e-IoTvul/iotvul/blob/main/tp-link/1/TL-WR940N_TL-WR841N_TL-WR740N_userRpm_FixMapCfgRpm.md"
+    },
+    {
+        "CVE ID": "CVE-2023-33538",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "04:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 was discovered to contain a command injection vulnerability via the component /userRpm/WlanNetworkRpm .",
+        "References": "https://github.com/a101e-IoTvul/iotvul/blob/main/tp-link/3/TL-WR940N_TL-WR841N_userRpm_WlanNetworkRpm_Command_Injection.md"
+    },
+    {
+        "CVE ID": "CVE-2023-0666",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-06-07",
+        "Published Time": "03:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:52:00",
+        "Description": "Due to failure in validating the length provided by an attacker-crafted RTPS packet, Wireshark version 4.0.5 and prior, by default, is susceptible to a heap-based buffer overflow, and possibly code execution in the context of the process running Wireshark.",
+        "References": "https://takeonme.org/cves/CVE-2023-0666.html,https://www.wireshark.org/security/wnpa-sec-2023-18.html,https://gitlab.com/wireshark/wireshark/-/issues/19085,https://www.wireshark.org/docs/relnotes/wireshark-4.0.6.html"
+    },
+    {
+        "CVE ID": "CVE-2023-1252",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-03-23",
+        "Published Time": "21:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:47:00",
+        "Description": "A use-after-free flaw was found in the Linux kernel\u2019s Ext4 File System in how a user triggers several file operations simultaneously with the overlay FS usage. This flaw allows a local user to crash or potentially escalate their privileges on the system. Only if patch 9a2544037600 (\"ovl: fix use after free in struct ovl_aio_req\") not applied yet, the kernel could be affected.",
+        "References": "https://lore.kernel.org/lkml/20211115165433.449951285@linuxfoundation.org/,https://security.netapp.com/advisory/ntap-20230505-0005/"
+    },
+    {
+        "CVE ID": "CVE-2022-48424",
+        "CVSS Score": "N/A",
+        "Published Date": "2023-03-19",
+        "Published Time": "03:15:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:47:00",
+        "Description": "In the Linux kernel before 6.1.3, fs/ntfs3/inode.c does not validate the attribute name offset. An unhandled page fault may occur.",
+        "References": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.3,https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4f1dc7d9756e66f3f876839ea174df2e656b7f79,https://security.netapp.com/advisory/ntap-20230505-0002/"
+    },
+    {
+        "CVE ID": "CVE-2015-8543",
+        "CVSS Score": 6.9,
+        "Published Date": "2015-12-28",
+        "Published Time": "11:59:00",
+        "Modified Date": "2023-06-07",
+        "Modified Time": "12:47:00",
+        "Description": "The networking implementation in the Linux kernel through 4.3.3, as used in Android and other products, does not validate protocol identifiers for certain protocol families, which allows local users to cause a denial of service (NULL function pointer dereference and system crash) or possibly gain privileges by leveraging CLONE_NEWUSER support to execute a crafted SOCK_RAW application.",
+        "References": "http://www.openwall.com/lists/oss-security/2015/12/09/5,https://bugzilla.redhat.com/show_bug.cgi?id=1290475,https://github.com/torvalds/linux/commit/79462ad02e861803b3840cc782248c7359451cd9,http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=79462ad02e861803b3840cc782248c7359451cd9,http://www.oracle.com/technetwork/topics/security/linuxbulletinapr2016-2952096.html,http://rhn.redhat.com/errata/RHSA-2016-0855.html,http://lists.opensuse.org/opensuse-security-announce/2016-08/msg00038.html,http://www.securityfocus.com/bid/79698,http://lists.opensuse.org/opensuse-security-announce/2016-03/msg00094.html,http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00045.html,http://www.ubuntu.com/usn/USN-2890-1,http://www.ubuntu.com/usn/USN-2890-3,http://www.securitytracker.com/id/1034892,http://www.ubuntu.com/usn/USN-2890-2,http://www.ubuntu.com/usn/USN-2888-1,http://www.ubuntu.com/usn/USN-2886-1,http://www.debian.org/security/2015/dsa-3426,http://www.debian.org/security/2016/dsa-3434,http://rhn.redhat.com/errata/RHSA-2016-2584.html,http://rhn.redhat.com/errata/RHSA-2016-2574.html"
+    }
+]

@@ -1,0 +1,45 @@
+ENPM808 Independent Project
+
+Reference Link: https://malpedia.caad.fkie.fraunhofer.de/
+
+Using malpedia I will gather data of threat actor, malware and its families
+
+Request malpedia or API
+    Status 200 
+        Store data
+
+Gather Threat reports of Threat actors, malware and its families
+
+Call database
+    Take one input
+        serach for IOCs, YARA Rules related to the input
+
+Lastest news and cvss score
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                                                                      +  
+Having an inbuilt dataset of threat actors and malware families in your project can be extremely valuable for several real-life scenarios. Here are a few ways in which it can help:                  + 
+                                                                                                                                                                                                      + 
+Threat Intelligence Analysis: By scraping information related to a specific threat actor or malware family, your project can provide valuable insights into their tactics,                            + 
+techniques, and procedures (TTPs). This information can be used by cybersecurity professionals and threat intelligence analysts to understand the behavior of threat actors                           + 
+and develop countermeasures.                                                                                                                                                                          + 
+                                                                                                                                                                                                      + 
+Incident Response: During an incident response process, your project can assist in identifying potential indicators of compromise (IOCs) associated with known threat actors or malware families.     + 
+This can help security teams in quickly detecting and responding to security incidents, minimizing the impact and mitigating potential risks.                                                         +  
+                                                                                                                                                                                                      + 
+Malware Detection: Your project's ability to generate YARA rules based on the scraped information can aid in malware detection and prevention.                                                        + 
+YARA rules are widely used in the cybersecurity community to identify specific patterns or characteristics of malware. By providing ready-to-use YARA rules,                                          + 
+your project can help security teams in proactively identifying and blocking known malicious software.                                                                                                + 
+                                                                                                                                                                                                      + 
+Security Awareness and Education: The information gathered by your project, such as the latest news and CVSS data, can be utilized to create reports, alerts,                                         + 
+or newsletters to keep stakeholders informed about emerging threats and vulnerabilities. This can enhance security awareness and enable users to take proactive measures to                           + 
+protect their systems and data.                                                                                                                                                                       + 
+                                                                                                                                                                                                      + 
+Threat Hunting: Your project's dataset can be used as a starting point for threat hunting activities.                                                                                                 +  
+Security analysts can leverage the gathered information to perform proactive searches for traces of known threat actors or malware families within their network environment.                         + 
+This can help in identifying hidden or persistent threats that may have gone undetected by traditional security measures.                                                                             + 
+                                                                                                                                                                                                      + 
+Overall, by providing access to IOCs, YARA rules, and comprehensive information about threat actors and malware families, your project can significantly enhance cybersecurity defenses,              + 
+facilitate incident response, and empower security professionals with actionable intelligence in real-life situations.                                                                                + 
+                                                                                                                                                                                                      + 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
