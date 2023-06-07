@@ -8,3 +8,5 @@ if __name__ == "__main__":
     threat_article.scrape_lib()
     threat_actor.scrape_threat_actor()
     malware.scrape_malware()
+
+#Main.py
