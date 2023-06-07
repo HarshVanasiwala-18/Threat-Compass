@@ -101,7 +101,7 @@ def cve():
     try:
         for cve_details in json_data:
             cve_id = cve_details['id']
-            cve_score = cve_details['cvss'] if cve_details['cvss'] else 'N/A'
+            cve_score = cve_details['cvss'] if cve_details['cvss'] else None
             cve_published = cve_details['Published'].split("T")[0]
             cve_published_time = cve_details['Published'].split("T")[1]
             cve_modified = cve_details['Modified'].split("T")[0]
