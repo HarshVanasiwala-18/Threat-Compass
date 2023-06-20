@@ -1,0 +1,13 @@
+Indicator,Type
+icbcqsz.com,domain
+savmpet.com,domain
+capstoneturbine.cechire.com,hostname
+ameteksen.com,domain
+CVE-2013-3893,CVE
+dc9b5e8aa6ec86db8af0a7aa897ca61db3e5f3d2e0942e319074db1aaccfdc83,FileHash-SHA256
+apt1708.com,domain
+apt17.net,domain
+3755terstenaplapt172.com,domain
+aa409a76c644b3b56b37c223a86699015020b32a,YARA
+94c2a3b1f7d21c81b2d6b579ab19b21dea4951a3,YARA
+2021116,NIDS
