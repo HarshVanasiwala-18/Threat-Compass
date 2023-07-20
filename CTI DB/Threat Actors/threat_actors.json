@@ -364,6 +364,10 @@
         "Aliases": "G0029, Golfing Taurus"
     },
     {
+        "Threat Actor": "SideCopy",
+        "Aliases": null
+    },
+    {
         "Threat Actor": "Silence group",
         "Aliases": "Silence, WHISPER SPIDER"
     },
@@ -569,10 +573,6 @@
     },
     {
         "Threat Actor": "SCULLY SPIDER",
-        "Aliases": null
-    },
-    {
-        "Threat Actor": "SideCopy",
         "Aliases": null
     },
     {

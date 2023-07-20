@@ -32,6 +32,7 @@ def scrape_malware_family():
                     if malware_family and malware_family.text
                     else None
                 )
+                
                 threat_actor_text = (
                     threat_actor.text if threat_actor and threat_actor.text else None
                 )
@@ -65,7 +66,7 @@ def scrape_malware_family():
                     name_text = None
 
                 entry = {
-                    "Malware Family": malware_family_text,
+                    "Malware Family": str(malware_family_text).strip(),
                     "Threat Actor": threat_actor_text,
                     "Aliases": alt_names_text,
                     "Name": name_text,

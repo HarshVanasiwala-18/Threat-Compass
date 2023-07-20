@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "7ev3n",
+        "URL": "https://www.cyber.nj.gov/threat-profiles/ransomware-variants/7ev3n",
+        "Date": "2016-07-06",
+        "Organization": "NJCCIC",
+        "Author": "NJCCIC",
+        "Malware Family": "7ev3n"
+    },
+    {
+        "Title": "7ev3n ransomware turning \u2018HONE$T\u2019",
+        "URL": "https://blog.malwarebytes.com/threat-analysis/2016/05/7ev3n-ransomware/",
+        "Date": "2016-05-06",
+        "Organization": "Malwarebytes",
+        "Author": "hasherezade",
+        "Malware Family": "7ev3n"
+    }
+]

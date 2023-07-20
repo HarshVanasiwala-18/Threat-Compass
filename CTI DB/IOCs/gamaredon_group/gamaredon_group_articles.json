@@ -1,0 +1,394 @@
+[
+    {
+        "Title": "Shuckworm: Inside Russia\u2019s Relentless Cyber Campaign Against Ukraine",
+        "URL": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-russia-ukraine-military",
+        "Date": "2023-06-15",
+        "Organization": "Symantec",
+        "Author": "Threat Hunter Team",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Cybergun: Technical Analysis of the Armageddon's Infostealer",
+        "URL": "https://threatmon.io/cybergun-technical-analysis-of-the-armageddons-infostealer/",
+        "Date": "2023-03-20",
+        "Organization": "ThreatMon",
+        "Author": "ThreatMon Malware Research Team, seyitsec",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Beyond Bullets and Bombs: An Examination of Armageddon Group\u2019s Cyber Warfare Against Ukraine",
+        "URL": "https://threatmon.io/beyond-bullets-and-bombs-an-examination-of-armageddon-groups-cyber-warfare-against-ukraine/",
+        "Date": "2023-03-13",
+        "Organization": "ThreatMon",
+        "Author": "ThreatMon Malware Research Team",
+        "Malware Family": "Unidentified 003 (Gamaredon Downloader)"
+    },
+    {
+        "Title": "Gamaredon (Ab)uses Telegram to Target Ukrainian Organizations",
+        "URL": "https://blogs.blackberry.com/en/2023/01/gamaredon-abuses-telegram-to-target-ukrainian-organizations",
+        "Date": "2023-01-19",
+        "Organization": "Blackberry",
+        "Author": "BlackBerry Research & Intelligence Team",
+        "Malware Family": "Unidentified VBS 006 (Telegram Loader)"
+    },
+    {
+        "Title": "Gamaredon Leverages Microsoft Office Docs to Target Ukraine Government and Military",
+        "URL": "https://blogs.blackberry.com/en/2022/11/gamaredon-leverages-microsoft-office-docs-to-target-ukraine-government",
+        "Date": "2022-11-21",
+        "Organization": "Blackberry",
+        "Author": "BlackBerry Research & Intelligence Team",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Cyberattacks of the UAC-0010 group (Armageddon): malicious programs GammaLoad, GammaSteel (CERT-UA#5134)",
+        "URL": "https://cert.gov.ua/article/1229152",
+        "Date": "2022-08-10",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": null
+    },
+    {
+        "Title": "UAC-0010 (Armageddon) cyberattacks using the GammaLoad.PS1_v2 malware (CERT-UA#5003,5013,5069,5071)",
+        "URL": "https://cert.gov.ua/article/971405",
+        "Date": "2022-07-26",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": null
+    },
+    {
+        "Title": "Trident Ursa",
+        "URL": "https://unit42.paloaltonetworks.com/atoms/tridentursa/",
+        "Date": "2022-07-18",
+        "Organization": "Palo Alto Networks Unit 42",
+        "Author": "Unit 42",
+        "Malware Family": null
+    },
+    {
+        "Title": "Trident Ursa",
+        "URL": "https://unit42.paloaltonetworks.com/atoms/tridentursa",
+        "Date": "2022-07-18",
+        "Organization": "Palo Alto Networks Unit 42",
+        "Author": "Unit 42",
+        "Malware Family": null
+    },
+    {
+        "Title": "Gamaredon Group: Understanding the Russian APT",
+        "URL": "https://www.threatstop.com/blog/gamaredon-group-understanding-the-russian-apt",
+        "Date": "2022-05-24",
+        "Organization": "ThreatStop",
+        "Author": "Ofir Ashman",
+        "Malware Family": "Unidentified 003 (Gamaredon Downloader)"
+    },
+    {
+        "Title": "Network Footprints of Gamaredon Group",
+        "URL": "https://blogs.cisco.com/security/network-footprints-of-gamaredon-group",
+        "Date": "2022-05-12",
+        "Organization": "Cisco",
+        "Author": "Onur Mustafa Erdogan, Mar\u00eda Jos\u00e9 Erquiaga",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Uac-0010 (Armageddon) cyberattacks using GammaLoad.PS1_v2 malware (CERT-UA#4634,4648)",
+        "URL": "https://cert.gov.ua/article/40240",
+        "Date": "2022-05-12",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": null
+    },
+    {
+        "Title": "Shuckworm: Espionage Group Continues Intense Campaign Against Ukraine",
+        "URL": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-intense-campaign-ukraine",
+        "Date": "2022-04-20",
+        "Organization": "Symantec",
+        "Author": "Threat Hunter Team",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Cyber attack of the UAC-0010 group (Armageddon) on the state organizations of Ukraine (CERT-UA#4434)",
+        "URL": "https://cert.gov.ua/article/39386",
+        "Date": "2022-04-07",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": null
+    },
+    {
+        "Title": "Cyber \u200b\u200battack of UAC-0010 group (Armageddon) on state organizations of Ukraine (CERT-UA # 4378)",
+        "URL": "https://cert.gov.ua/article/39138",
+        "Date": "2022-04-04",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": null
+    },
+    {
+        "Title": "Cyber attack by the UAC-0010 group (Armageddon) on state institutions of the European Union countries (CERT-UA#4334)",
+        "URL": "https://cert.gov.ua/article/39086",
+        "Date": "2022-04-04",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": null
+    },
+    {
+        "Title": "ACTINIUM targets Ukrainian organizations",
+        "URL": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+        "Date": "2022-02-04",
+        "Organization": "Microsoft",
+        "Author": "Microsoft Threat Intelligence Center (MSTIC), Microsoft Digital Security Unit (DSU)",
+        "Malware Family": "DilongTrash"
+    },
+    {
+        "Title": "ACTINIUM targets Ukrainian organizations",
+        "URL": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations",
+        "Date": "2022-02-04",
+        "Organization": "Microsoft",
+        "Author": "Microsoft Threat Intelligence Center (MSTIC), Microsoft Digital Security Unit (DSU)",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine (Updated June 22)",
+        "URL": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021",
+        "Date": "2022-02-03",
+        "Organization": "Palo Alto Networks Unit 42",
+        "Author": "Unit 42",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Russia\u2019s Gamaredon aka Primitive Bear APT Group Actively Targeting Ukraine",
+        "URL": "https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/",
+        "Date": "2022-02-03",
+        "Organization": "Palo Alto Networks Unit 42",
+        "Author": "Unit 42",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Cyber attack of the UAC-0010 group (Armageddon) on the state organizations of Ukraine (CERT-UA#3787)",
+        "URL": "https://cert.gov.ua/article/18365",
+        "Date": "2022-02-01",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": null
+    },
+    {
+        "Title": "Russian 'Gamaredon' hackers use 8 new malware payloads in attacks",
+        "URL": "https://www.bleepingcomputer.com/news/security/russian-gamaredon-hackers-use-8-new-malware-payloads-in-attacks/",
+        "Date": "2022-01-31",
+        "Organization": "Bleeping Computer",
+        "Author": "Bill Toulas",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Shuckworm Continues Cyber-Espionage Attacks Against Ukraine",
+        "URL": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine",
+        "Date": "2022-01-31",
+        "Organization": "Symantec",
+        "Author": "Symantec Threat Hunter Team",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Gamaredon / Armageddon Group: FSB RF Cyber attacks against Ukraine",
+        "URL": "https://ssu.gov.ua/uploads/files/DKIB/Technical%20report%20Armagedon.pdf",
+        "Date": "2021-11-04",
+        "Organization": "Security Service of Ukraine",
+        "Author": "Security Service of Ukraine",
+        "Malware Family": "EvilGnome"
+    },
+    {
+        "Title": "Docx Files Template-Injection",
+        "URL": "https://aaqeel01.wordpress.com/2021/01/18/docx-files-template-injection/",
+        "Date": "2021-01-18",
+        "Organization": "aaqeel01",
+        "Author": "Ali Aqeel",
+        "Malware Family": "Unidentified 003 (Gamaredon Downloader)"
+    },
+    {
+        "Title": "Digging up InvisiMole\u2019s hidden arsenal",
+        "URL": "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal/",
+        "Date": "2020-06-18",
+        "Organization": "ESET Research",
+        "Author": "Zuzana Hromcov\u00e1, Anton Cherepanov",
+        "Malware Family": "InvisiMole"
+    },
+    {
+        "Title": "Digging up InvisiMole\u2019s hidden arsenal",
+        "URL": "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal",
+        "Date": "2020-06-18",
+        "Organization": "ESET Research",
+        "Author": "Zuzana Hromcov\u00e1, Anton Cherepanov",
+        "Malware Family": "RC2FM"
+    },
+    {
+        "Title": "ELF Malware Analysis 101: Linux Threats No Longer an Afterthought",
+        "URL": "https://intezer.com/blog/linux/elf-malware-analysis-101-linux-threats-no-longer-an-afterthought",
+        "Date": "2020-06-16",
+        "Organization": "Intezer",
+        "Author": "Aviygayil Mechtinger",
+        "Malware Family": "Cloud Snooper"
+    },
+    {
+        "Title": "Gamaredon group grows its game",
+        "URL": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game",
+        "Date": "2020-06-11",
+        "Organization": "ESET Research",
+        "Author": "Jean-Ian Boutin",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Gamaredon group grows its game",
+        "URL": "https://www.welivesecurity.com/2020/06/11/gamaredon-group-grows-its-game/",
+        "Date": "2020-06-11",
+        "Organization": "ESET Research",
+        "Author": "Jean-Ian Boutin",
+        "Malware Family": null
+    },
+    {
+        "Title": "2020 CrowdStrike Global Threat Report",
+        "URL": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+        "Date": "2020-03-04",
+        "Organization": "CrowdStrike",
+        "Author": "CrowdStrike",
+        "Malware Family": "MESSAGETAP"
+    },
+    {
+        "Title": "Cyberwarfare: A deep dive into the latest Gamaredon Espionage Campaign",
+        "URL": "https://blog.yoroi.company/research/cyberwarfare-a-deep-dive-into-the-latest-gamaredon-espionage-campaign/",
+        "Date": "2020-02-17",
+        "Organization": "Yoroi",
+        "Author": "Yoroi",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Playing defense against Gamaredon Group",
+        "URL": "https://www.elastic.co/blog/playing-defense-against-gamaredon-group",
+        "Date": "2020-02-13",
+        "Organization": "Elastic",
+        "Author": "Daniel Stepanic, Andrew Pease, Seth Goodwin",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Pro-Russian CyberSpy Gamaredon Intensifies Ukrainian Security Targeting",
+        "URL": "https://labs.sentinelone.com/pro-russian-cyberspy-gamaredon-intensifies-ukrainian-security-targeting/",
+        "Date": "2020-02-05",
+        "Organization": "SentinelOne",
+        "Author": "Vitali Kremez",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Operation Gamework: Infrastructure Overlaps Found Between BlueAlpha and Iranian APTs",
+        "URL": "https://go.recordedfuture.com/hubfs/reports/cta-2019-1212.pdf",
+        "Date": "2019-12-11",
+        "Organization": "Recorded Future",
+        "Author": "Insikt Group\u00ae",
+        "Malware Family": null
+    },
+    {
+        "Title": "Gamaredon Analysis",
+        "URL": "https://github.com/StrangerealIntel/CyberThreatIntel/tree/master/Russia/APT/Gamaredon",
+        "Date": "2019-09-10",
+        "Organization": "Github (StrangerealIntel)",
+        "Author": "StrangerealIntel",
+        "Malware Family": null
+    },
+    {
+        "Title": "EvilGnome: Rare Malware Spying on Linux Desktop Users",
+        "URL": "https://www.intezer.com/blog-evilgnome-rare-malware-spying-on-linux-desktop-users/",
+        "Date": "2019-07-17",
+        "Organization": "Intezer",
+        "Author": "Paul Litvak",
+        "Malware Family": "EvilGnome"
+    },
+    {
+        "Title": "An Inside Look at the Infrastructure Behind the Russian APT Gamaredon Group",
+        "URL": "https://blog.threatstop.com/russian-apt-gamaredon-group",
+        "Date": "2019-02-07",
+        "Organization": "ThreatStop",
+        "Author": "John Bambenek",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Let's Learn: Deeper Dive into Gamaredon Group Pteranodon Implant Version '_512'",
+        "URL": "https://www.vkremez.com/2019/01/lets-learn-deeper-dive-into-gamaredon.html",
+        "Date": "2019-01-07",
+        "Organization": null,
+        "Author": "Vitali Kremez",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Group description: Gamaredon Group",
+        "URL": "https://attack.mitre.org/groups/G0047/",
+        "Date": "2019",
+        "Organization": "MITRE",
+        "Author": "MITRE ATT&CK",
+        "Malware Family": null
+    },
+    {
+        "Title": "\u0412\u0438\u044f\u0432\u043b\u0435\u043d\u0430 \u043f\u0456\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430 \u0434\u043e \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u043d\u044f \u043a\u0456\u0431\u0435\u0440\u0430\u0442\u0430\u043a\u0438 \u0437 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f\u043c \u0428\u041f\u0417 \u0442\u0438\u043f\u0443 Pterodo",
+        "URL": "https://cert.gov.ua/news/46",
+        "Date": "2018-11-15",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Bulk mailing of spyware like Pterodo",
+        "URL": "https://cert.gov.ua/news/42",
+        "Date": "2018-09-03",
+        "Organization": "Cert-UA",
+        "Author": "Cert-UA",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Gamaredon Group",
+        "URL": "https://attack.mitre.org/groups/G0047",
+        "Date": "2017-05-31",
+        "Organization": "MITRE",
+        "Author": "MITRE ATT&CK",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "The Gamaredon Group Toolset Evolution",
+        "URL": "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution",
+        "Date": "2017-02-27",
+        "Organization": "Palo Alto Networks Unit 42",
+        "Author": "Anthony Kasza, Dominik Reichel",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "The Gamaredon Group Toolset Evolution",
+        "URL": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/",
+        "Date": "2017-02-27",
+        "Organization": "Palo Alto Networks Unit 42",
+        "Author": "Anthony Kasza, Dominik Reichel",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "The Gamaredon Group Toolset Evolution",
+        "URL": "http://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution",
+        "Date": "2017-02-27",
+        "Organization": "Palo Alto Networks Unit 42",
+        "Author": "Anthony Kasza, Dominik Reichel",
+        "Malware Family": null
+    },
+    {
+        "Title": "The Gamaredon Group Toolset Evolution",
+        "URL": "https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution/",
+        "Date": "2017-02-27",
+        "Organization": "Palo Alto Networks Unit 42",
+        "Author": "Anthony Kasza, Dominik Reichel",
+        "Malware Family": null
+    },
+    {
+        "Title": "SectorC08: Multi-Layered SFX in Recent Campaigns Target Ukraine",
+        "URL": "https://threatrecon.nshc.net/2019/06/11/sectorc08-multi-layered-sfx-recent-campaigns-target-ukraine/",
+        "Date": "2016-06-25",
+        "Organization": "NSHC",
+        "Author": "NSHC Threatrecon Team",
+        "Malware Family": "Pteranodon"
+    },
+    {
+        "Title": "Operation Armageddon: Cyber Espionage as a Strategic Component of Russian Modern Warfare",
+        "URL": "https://www.lookingglasscyber.com/wp-content/uploads/2015/08/Operation_Armageddon_Final.pdf",
+        "Date": "2015-04-28",
+        "Organization": "LookingGlass",
+        "Author": "LookingGlass",
+        "Malware Family": null
+    }
+]
