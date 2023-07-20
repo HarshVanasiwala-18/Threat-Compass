@@ -88,16 +88,16 @@
         "Aliases": "Desert Falcon, Arid Viper, APT-C-23"
     },
     {
+        "Threat Actor": "MuddyWater",
+        "Aliases": "TEMP.Zagros, Static Kitten, Seedworm, MERCURY, COBALT ULSTER, G0069, ATK51, Boggy Serpens"
+    },
+    {
         "Threat Actor": "Cleaver",
         "Aliases": "Operation Cleaver, Op Cleaver, Tarh Andishan, Alibaba, TG-2889, Cobalt Gypsy, G0003"
     },
     {
         "Threat Actor": "DarkHotel",
         "Aliases": "DUBNIUM, Fallout Team, Karba, Luder, Nemim, Nemin, Tapaoux, Pioneer, Shadow Crane, APT-C-06, SIG25, TUNGSTEN BRIDGE, T-APT-02, G0012, ATK52"
-    },
-    {
-        "Threat Actor": "MuddyWater",
-        "Aliases": "TEMP.Zagros, Static Kitten, Seedworm, MERCURY, COBALT ULSTER, G0069, ATK51, Boggy Serpens"
     },
     {
         "Threat Actor": "APT3",
@@ -128,10 +128,6 @@
         "Aliases": "Group 8, AURORA PANDA, Hidden Lynx, Tailgater Team, Dogfish, BRONZE KEYSTONE, G0025, Group 72, G0001, Axiom, HELIUM"
     },
     {
-        "Threat Actor": "APT30",
-        "Aliases": "G0013"
-    },
-    {
         "Threat Actor": "Cobalt",
         "Aliases": "Cobalt Group, Cobalt Gang, GOLD KINGSWOOD, COBALT SPIDER, G0080, Mule Libra"
     },
@@ -150,6 +146,10 @@
     {
         "Threat Actor": "Hellsing",
         "Aliases": null
+    },
+    {
+        "Threat Actor": "Naikon",
+        "Aliases": "PLA Unit 78020, OVERRIDE PANDA, Camerashy, BRONZE GENEVA, G0019, Naikon, BRONZE STERLING, G0013"
     },
     {
         "Threat Actor": "The Gorgon Group",
@@ -684,6 +684,10 @@
         "Aliases": "Hippo Team, JerseyMikes, TURBINE PANDA, BRONZE EXPRESS, TECHNETIUM"
     },
     {
+        "Threat Actor": "APT30",
+        "Aliases": "G0013"
+    },
+    {
         "Threat Actor": "APT4",
         "Aliases": "PLA Navy, MAVERICK PANDA, BRONZE EDISON, Sykipot"
     },
@@ -1210,10 +1214,6 @@
     {
         "Threat Actor": "Moskalvzapoe",
         "Aliases": "MAN1, TA511"
-    },
-    {
-        "Threat Actor": "Naikon",
-        "Aliases": "PLA Unit 78020, OVERRIDE PANDA, Camerashy, BRONZE GENEVA, G0019, Naikon, BRONZE STERLING, G0013"
     },
     {
         "Threat Actor": "NEODYMIUM",
