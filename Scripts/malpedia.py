@@ -9,6 +9,7 @@ try:
 except FileExistsError:
     pass
 
+
 def scrape_malware_family():
     try:
         response = requests.get("https://malpedia.caad.fkie.fraunhofer.de/families")
@@ -32,7 +33,7 @@ def scrape_malware_family():
                     if malware_family and malware_family.text
                     else None
                 )
-                
+
                 threat_actor_text = (
                     threat_actor.text if threat_actor and threat_actor.text else None
                 )
@@ -87,6 +88,7 @@ def scrape_malware_family():
     except Exception as e:
         print("Exception:", e)
 
+
 def scrape_threat_actor():
     try:
         response = requests.get("https://malpedia.caad.fkie.fraunhofer.de/actors")
@@ -125,6 +127,7 @@ def scrape_threat_actor():
     except Exception as e:
         print("Exception:", e)
 
+
 def scrape_lib():
     i = 1
     data = []
@@ -162,10 +165,11 @@ def scrape_lib():
                     }
 
                     data.append(entry)
-                
+
                 print(
                     f"\rPage {i} Scraping completed\r",
-                    flush=True, end="\r",
+                    flush=True,
+                    end="\r",
                 )
                 i += 1
             else:
@@ -187,6 +191,7 @@ def scrape_lib():
 
     with open(os.path.join(new_folder_path, "threat_article.json"), "w") as file:
         json.dump(data, file, indent=4)
+
 
 if __name__ == "__main__":
     scrape_malware_family()

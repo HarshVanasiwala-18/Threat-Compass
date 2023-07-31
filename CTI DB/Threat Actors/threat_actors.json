@@ -56,16 +56,16 @@
         "Aliases": "C-Major, Transparent Tribe, Mythic Leopard, ProjectM, APT36, APT 36, TMP.Lapis, Green Havildar, COPPER FIELDSTONE"
     },
     {
+        "Threat Actor": "Sandworm",
+        "Aliases": "Quedagh, VOODOO BEAR, TEMP.Noble, IRON VIKING, G0034, ELECTRUM, TeleBots, IRIDIUM, Blue Echidna, FROZENBARENTS"
+    },
+    {
         "Threat Actor": "APT33",
         "Aliases": "APT 33, Elfin, MAGNALLIUM, Refined Kitten, HOLMIUM, COBALT TRINITY, G0064, ATK35"
     },
     {
         "Threat Actor": "Equation Group",
         "Aliases": "Tilded Team, EQGRP, G0020"
-    },
-    {
-        "Threat Actor": "Sandworm",
-        "Aliases": "Quedagh, VOODOO BEAR, TEMP.Noble, IRON VIKING, G0034, ELECTRUM, TeleBots, IRIDIUM, Blue Echidna, FROZENBARENTS"
     },
     {
         "Threat Actor": "BlackTech",
@@ -184,6 +184,10 @@
         "Aliases": "DarkHalo, StellarParticle, NOBELIUM, Solar Phoenix"
     },
     {
+        "Threat Actor": "VICEROY TIGER",
+        "Aliases": "OPERATION HANGOVER, Donot Team, APT-C-35, SectorE02, Orange Kala"
+    },
+    {
         "Threat Actor": "Earth Lusca",
         "Aliases": "CHROMIUM, ControlX, TAG-22, FISHMONGER, BRONZE UNIVERSITY, AQUATIC PANDA, Red Dev 10"
     },
@@ -230,10 +234,6 @@
     {
         "Threat Actor": "VENOM SPIDER",
         "Aliases": "badbullzvenom"
-    },
-    {
-        "Threat Actor": "VICEROY TIGER",
-        "Aliases": "OPERATION HANGOVER, Donot Team, APT-C-35, SectorE02, Orange Kala"
     },
     {
         "Threat Actor": "WIZARD SPIDER",
@@ -562,6 +562,10 @@
     {
         "Threat Actor": "PROMETHIUM",
         "Aliases": "StrongPity, G0056"
+    },
+    {
+        "Threat Actor": "Rebel Jackal",
+        "Aliases": "FallagaTeam"
     },
     {
         "Threat Actor": "RIDDLE SPIDER",
@@ -1342,10 +1346,6 @@
     {
         "Threat Actor": "RATPAK SPIDER",
         "Aliases": null
-    },
-    {
-        "Threat Actor": "Rebel Jackal",
-        "Aliases": "FallagaTeam"
     },
     {
         "Threat Actor": "RedAlpha",

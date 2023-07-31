@@ -9,28 +9,33 @@ try:
 except FileExistsError:
     pass
 
+
 def scrape_group():
     with open("CTI DB\MITRE\mitre.json", "r") as file:
         mitre = json.load(file)
-    
+
     output_data = []
 
     try:
         for row in mitre:
             group_id = row["ID"]
-            response = requests.get(f"https://attack.mitre.org/groups/{group_id}/{group_id}-enterprise-layer.json")
+            response = requests.get(
+                f"https://attack.mitre.org/groups/{group_id}/{group_id}-enterprise-layer.json"
+            )
             if response.status_code == 200:
                 data = json.loads(response.text)
                 techniques = data["techniques"]
                 for technique in techniques:
                     technique_id = technique["techniqueID"]
                     comment = technique.get("comment", "")
-                    output_data.append({
-                        "Name": data["name"],
-                        "Group ID": group_id,
-                        "Technique ID": technique_id,
-                        "Comment": comment if comment else None
-                    })
+                    output_data.append(
+                        {
+                            "Name": data["name"],
+                            "Group ID": group_id,
+                            "Technique ID": technique_id,
+                            "Comment": comment if comment else None,
+                        }
+                    )
     except Exception as e:
         print("Exception:", e)
 
@@ -44,7 +49,8 @@ def scrape_group():
 
     with open(os.path.join(new_folder_path, "group.json"), "w") as output_file:
         json.dump(output_data, output_file, indent=4)
-                
+
+
 def scrape_software():
     with open("CTI DB\MITRE\mitre.json", "r") as file:
         mitre = json.load(file)
@@ -57,15 +63,19 @@ def scrape_software():
             if response.status_code == 200:
                 soup = BeautifulSoup(response.text, "html.parser")
                 try:
-                    table = soup.find("table", {"class": "table table-bordered table-alternate mt-2"})
-                
+                    table = soup.find(
+                        "table", {"class": "table table-bordered table-alternate mt-2"}
+                    )
+
                     for row in table.find("tbody").find_all("tr"):
                         cells = [cell.text.strip() for cell in row.find_all("td")]
                         if len(cells) >= 3:
                             if cells[2] == "":
                                 cells[2] = None
 
-                            techniques = [technique.strip() for technique in cells[3].split(",")]
+                            techniques = [
+                                technique.strip() for technique in cells[3].split(",")
+                            ]
 
                             result = {
                                 "Group ID": group_id,
@@ -75,14 +85,14 @@ def scrape_software():
                             }
 
                             data.append(result)
-                    
+
                 except Exception as e:
                     result = {
-                                "Group ID": group_id,
-                                "Software ID": None,
-                                "Name": None,
-                                "Techniques": None,
-                            }
+                        "Group ID": group_id,
+                        "Software ID": None,
+                        "Name": None,
+                        "Techniques": None,
+                    }
                     data.append(result)
                     pass
 
@@ -98,6 +108,7 @@ def scrape_software():
                     json.dump(data, file, indent=4)
     except Exception as e:
         print("Exception:", e)
+
 
 def scrape_mitre():
     try:
@@ -137,10 +148,9 @@ def scrape_mitre():
             json.dump(data, file, indent=4)
     except Exception as e:
         print("Exception:", e)
-    
+
+
 if __name__ == "__main__":
     scrape_mitre()
     scrape_software()
     scrape_group()
-
-

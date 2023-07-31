@@ -157,5 +157,6 @@ def main():
     with open(os.path.join(new_folder_path, "cve.json"), "w") as file:
         json.dump(cve_data, file, indent=4)
 
+
 if __name__ == "__main__":
     main()
