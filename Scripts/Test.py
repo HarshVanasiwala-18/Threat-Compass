@@ -1,4 +1,6 @@
 import re
+import requests
+from bs4 import BeautifulSoup
 
 regex_ipv6 = r'([a-f0-9:]+:+)+[a-f0-9]+'
 # regex_ipv4 = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
@@ -15,3 +17,13 @@ regex_email = r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+'
 regex_filename= r'\b([a-zA-Z0-9_-]+)(?:\[\.\]|\{\.\}|\(\.\)|\.)([a-zA-Z0-9]+)\b'
 regex_ipv4 = r'\d{1,3}(?:\[\.\]|\{\.\}|\(\.\)|\.)\d{1,3}(?:\[\.\]|\{\.\}|\(\.\)|\.)\d{1,3}(?:\[\.\]|\{\.\}|\(\.\)|\.)\d{1,3}'
 
+regex_list = [regex_ipv6, regex_ipv4, regex_filename, regex_filepath, regex_sha1, regex_sha256, regex_sha512, regex_md5, regex_cve, regex_domain, regex_url, regex_email]
+response = requests.get('https://research.checkpoint.com/2023/byos-bundle-your-own-stealer/')
+
+print(response.status_code)
+
+for pattern in regex_list:
+    matches = re.finditer(pattern, soup, re.MULTILINE)
+    for match in matches:
+        print(match)
+    
