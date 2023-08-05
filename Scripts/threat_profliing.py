@@ -35,20 +35,23 @@ data = []
 
 
 def miter_additional_info(group_id):
-    group_id = str(group_id).lower()
-    for group in groups:
-        id = str(group["Group ID"]).lower()
-        if group_id in id:
-            print("Group Name: ", group["Name"])
-            print("Mitre TTP: ", group["Technique ID"])
-            print("Comment: ", group["Comment"])
+    print(group_id)
+    url = f'https://attack.mitre.org/groups/{group_id}/'
+    response = requests.get(url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, "html.parser")
+        h2 = soup.find_all("h2")
+        for i in h2:
+            try:
+                table = i.next_sibling.next_sibling
+                tr = table.find_all("tr")
+                for i in tr:
+                    td = i.find_all("td")
+                    for i in td:
+                        print(i.text.strip())
+            except:
+                pass
 
-    for soft in software:
-        id = str(soft["Group ID"]).lower()
-        if group_id in id:
-            print("Software Name: ", soft["Name"])
-            print("Technique: ", soft["Techniques"])
-            print("Software ID: ", soft["Software ID"])
 
 
 def mitre_framework(input):
@@ -60,19 +63,23 @@ def mitre_framework(input):
             for malware in data:
                 malware = str(malware).lower()
                 if input in mitre_attack:
-                    print(mitre[i]["ID"])
-                    print(mitre[i]["Name"])
-                    print(mitre[i]["Description"])
-                    print(mitre[i]["Aliases"])
+                    print("-" * 50)
+                    print("Group ID: ", mitre[i]["ID"])
+                    print("Name: ", mitre[i]["Name"])
+                    print("Description: ", mitre[i]["Description"])
+                    print("Aliases: ", mitre[i]["Aliases"])
                     print("\n")
+                    print("-" * 50)
                     miter_additional_info(mitre[i]["ID"])
                     break
                 elif malware in mitre_attack:
-                    print(mitre[i]["ID"])
-                    print(mitre[i]["Name"])
-                    print(mitre[i]["Description"])
-                    print(mitre[i]["Aliases"])
-                    print("\n")
+                    print("-" * 50)
+                    print("Group ID: ", mitre[i]["ID"])
+                    print("Name: ", mitre[i]["Name"])
+                    print("Description: ", mitre[i]["Description"])
+                    print("Aliases: ", mitre[i]["Aliases"])
+                    print("\n")    
+                    print("-" * 50)
                     miter_additional_info(mitre[i]["ID"])
                     break
             i += 1
@@ -91,6 +98,8 @@ def threat_actor_article(input):
             print("Organization: ", news["Author"])
             print("Malware Family: ", news["Malware Family"])
             print("\n")
+            print("-" * 50)
+
 
 
 def threat_to_malware():
@@ -181,8 +190,9 @@ def threat_description(input, threat_type):
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
         threat_description = soup.find("p")
-        print(threat_description.text)
-
+        print(threat_description.text.strip())
+        print("\n")
+        print("-" * 50)
 
 def threat_actor_country(input):
     url = "https://malpedia.caad.fkie.fraunhofer.de/actors"
@@ -201,7 +211,9 @@ def threat_actor_country(input):
                     reader = csv.reader(file)
                     for row in reader:
                         if country_code in row[1].lower():
-                            print(row[0])
+                            print("Country: ", row[0])
+                            print("Country Code: ", row[1])
+                            print("-"*50)
                             break
 
 
@@ -246,6 +258,8 @@ def find_threat_actor(input):
 if __name__ == "__main__":
     user_input = input("Enter Threat Actor or Malware: ").lower()
     find_threat_actor(user_input)
+    print("-" * 50)
     print("Malware Family: ", set(malware_name))
+    print("-" * 50)
     print("Aliases: ", set(malware_alias))
     mitre_framework(user_input)

@@ -17,7 +17,7 @@ except FileNotFoundError:
     sys.exit(1)
 
 
-def scrape_malpedia_malware(malware, directory_name):
+def scrape_malpedia_malware(malware):
     response = requests.get(
         f"https://malpedia.caad.fkie.fraunhofer.de/details/{malware}"
     )

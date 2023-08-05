@@ -12,6 +12,7 @@ try:
 except FileExistsError:
     pass
 
+
 news_provider = {
     "https://www.securityweek.com/feed/": "Security Week",
     "https://www.darkreading.com/rss.xml": "Dark Reading",
