@@ -1,80 +1,486 @@
 [
     {
-        "Title": "US, Australia Issue Warning Over Access Control Vulnerabilities in Web Applications",
-        "Link": "https://www.securityweek.com/us-australia-issue-warning-over-access-control-vulnerabilities-in-web-applications/",
-        "Date": "2023-07-28",
-        "Time": "15:02:57",
-        "Summary": "US and Australian government agencies provide guidance on addressing access control vulnerabilities in web applications.\nThe post US, Australia Issue Warning Over Access Control Vulnerabilities in Web Applications appeared first on SecurityWeek."
+        "Title": "A Cyberattack Has Disrupted Hospitals and Health Care in Five States",
+        "Link": "https://www.securityweek.com/a-cyberattack-has-disrupted-hospitals-and-health-care-in-five-states/",
+        "Date": "2023-08-04",
+        "Time": "15:20:19",
+        "Summary": "A cyberattack has disrupted hospital computer systems in several states, forcing some emergency rooms to close and ambulances to be diverted.\nThe post A Cyberattack Has Disrupted Hospitals and Health Care in Five States appeared first on SecurityWeek."
     },
     {
-        "Title": "In Other News: Data Breach Cost Rises, Russia Targets Diplomats, Tracker Alerts in Android",
-        "Link": "https://www.securityweek.com/in-other-news-data-breach-cost-rises-russia-targets-diplomats-tracker-alerts-in-android/",
-        "Date": "2023-07-28",
-        "Time": "14:38:20",
-        "Summary": "Weekly cybersecurity news roundup that provides a summary of noteworthy stories that might have slipped under the radar for the week of July 24, 2023.\nThe post In Other News: Data Breach Cost Rises, Russia Targets Diplomats, Tracker Alerts in Android\u00a0 appeared first on SecurityWeek."
+        "Title": "In Other News: Cybersecurity Funding Rebounds, Cloud Threats, BeyondTrust Vulnerability",
+        "Link": "https://www.securityweek.com/in-other-news-cybersecurity-funding-rebounds-cloud-threats-beyondtrust-vulnerability/",
+        "Date": "2023-08-04",
+        "Time": "14:09:51",
+        "Summary": "Weekly cybersecurity news roundup that provides a summary of noteworthy stories that might have slipped under the radar for the week of July 31, 2023.\nThe post In Other News: Cybersecurity Funding Rebounds, Cloud Threats, BeyondTrust Vulnerability appeared first on SecurityWeek."
     },
     {
-        "Title": "Exploitation of Recent Citrix ShareFile RCE Vulnerability Begins",
-        "Link": "https://www.securityweek.com/exploitation-of-recent-citrix-sharefile-rce-vulnerability-begins/",
-        "Date": "2023-07-28",
-        "Time": "13:20:28",
-        "Summary": "The first attempts to exploit CVE-2023-24489, a recent critical Citrix ShareFile remote code execution vulnerability, have been observed.\nThe post Exploitation of Recent Citrix ShareFile RCE Vulnerability Begins appeared first on SecurityWeek."
+        "Title": "Threat Actors Abuse Cloudflare Tunnel for Persistent Access, Data Theft",
+        "Link": "https://www.securityweek.com/threat-actors-abuse-cloudflare-tunnel-for-persistent-access-data-theft/",
+        "Date": "2023-08-04",
+        "Time": "13:20:47",
+        "Summary": "Threat actors have been observed abusing the open source Cloudflare Tunnel tool Cloudflared to maintain stealthy, persistent access to compromised systems.\nThe post Threat Actors Abuse Cloudflare Tunnel for Persistent Access, Data Theft appeared first on SecurityWeek."
     },
     {
-        "Title": "Industry Reactions to New SEC Cyber Incident Disclosure Rules: Feedback Friday",
-        "Link": "https://www.securityweek.com/industry-reactions-to-new-sec-cyber-incident-disclosure-rules-feedback-friday/",
-        "Date": "2023-07-28",
-        "Time": "13:00:25",
-        "Summary": "Several industry professionals comment on the SEC\u2019s new cybersecurity incident disclosure rules and their implications. \nThe post Industry Reactions to New SEC Cyber Incident Disclosure Rules: Feedback Friday appeared first on SecurityWeek."
+        "Title": "Microsoft Criticized Over Handling of Critical Power Platform Vulnerability",
+        "Link": "https://www.securityweek.com/microsoft-criticized-over-handling-of-critical-power-platform-vulnerability/",
+        "Date": "2023-08-04",
+        "Time": "12:24:46",
+        "Summary": "A critical Microsoft Power Platform vulnerability exposed authentication data and other secrets, but the tech giant has been accused of handling it poorly.\nThe post Microsoft Criticized Over Handling of Critical Power Platform Vulnerability appeared first on SecurityWeek."
     },
     {
-        "Title": "Zimbra Patches Exploited Zero-Day Vulnerability",
-        "Link": "https://www.securityweek.com/zimbra-patches-exploited-zero-day-vulnerability/",
-        "Date": "2023-07-28",
-        "Time": "11:43:42",
-        "Summary": "Zimbra has released patches for a cross-site scripting (XSS) vulnerability that has been exploited in malicious attacks.\nThe post Zimbra Patches Exploited Zero-Day Vulnerability appeared first on SecurityWeek."
+        "Title": "Points.com Vulnerabilities Allowed Customer Data Theft, Rewards Program Hacking",
+        "Link": "https://www.securityweek.com/points-com-vulnerabilities-allowed-customer-data-theft-rewards-program-hacking/",
+        "Date": "2023-08-04",
+        "Time": "11:37:50",
+        "Summary": "Multiple vulnerabilities in the airline and hotel rewards platform points.com could have led to personal information theft and unauthorized administrative access.\nThe post Points.com Vulnerabilities Allowed Customer Data Theft, Rewards Program Hacking appeared first on SecurityWeek."
     },
     {
-        "Title": "CoinsPaid Blames North Korean Hackers for $37 Million Cryptocurrency Heist",
-        "Link": "https://www.securityweek.com/coinspaid-blames-north-korean-hackers-for-37-million-cryptocurrency-heist/",
-        "Date": "2023-07-28",
-        "Time": "11:03:00",
-        "Summary": "CoinsPaid says North Korean hacking group Lazarus is likely responsible for the recent theft of $37 million in cryptocurrency.\nThe post CoinsPaid Blames North Korean Hackers for $37 Million Cryptocurrency Heist appeared first on SecurityWeek."
+        "Title": "New York Couple Plead Guilty to Bitcoin Laundering",
+        "Link": "https://www.securityweek.com/new-york-couple-plead-guilty-to-bitcoin-laundering/",
+        "Date": "2023-08-04",
+        "Time": "11:09:38",
+        "Summary": "A married couple from New York dubbed \"Bitcoin Bonnie and Crypto Clyde\" pleaded guilty to laundering billions of dollars in stolen bitcoin.\nThe post New York Couple Plead Guilty to Bitcoin Laundering appeared first on SecurityWeek."
     },
     {
-        "Title": "Weintek Weincloud Vulnerabilities Allowed Manipulation, Damaging of ICS Devices",
-        "Link": "https://www.securityweek.com/weintek-weincloud-vulnerabilities-allowed-manipulation-damaging-of-ics-devices/",
-        "Date": "2023-07-28",
-        "Time": "10:17:51",
-        "Summary": "Several vulnerabilities found in Weintek Weincloud could have allowed hackers to manipulate and damage ICS, including PLCs and field devices.\nThe post Weintek Weincloud Vulnerabilities Allowed Manipulation, Damaging of ICS Devices appeared first on SecurityWeek."
+        "Title": "Exploitation of Ivanti EPMM Flaw Picking Up as New Vulnerability Is Disclosed",
+        "Link": "https://www.securityweek.com/exploitation-of-ivanti-epmm-flaw-picking-up-as-new-vulnerability-is-disclosed/",
+        "Date": "2023-08-04",
+        "Time": "09:49:34",
+        "Summary": "Exploitation of the Ivanti EPMM flaw CVE-2023-35078 is picking up as a new critical vulnerability tracked as CVE-2023-35082 is disclosed.\nThe post Exploitation of Ivanti EPMM Flaw Picking Up as New Vulnerability Is Disclosed appeared first on SecurityWeek."
     },
     {
-        "Title": "US Senator Wyden Accuses Microsoft of \u2018Cybersecurity Negligence\u2019",
-        "Link": "https://www.securityweek.com/us-senator-wyden-accuses-microsoft-of-cybersecurity-negligence/",
-        "Date": "2023-07-27",
-        "Time": "19:17:51",
-        "Summary": "Redmond is accused of \u201cnegligent cybersecurity practices\u201d that enabled a successful Chinese hack of the United States government.\nThe post US Senator Wyden Accuses Microsoft of \u2018Cybersecurity Negligence\u2019 appeared first on SecurityWeek."
+        "Title": "Five Eyes Agencies Call Attention to Most Frequently Exploited Vulnerabilities",
+        "Link": "https://www.securityweek.com/five-eyes-agencies-call-attention-to-most-frequently-exploited-vulnerabilities/",
+        "Date": "2023-08-04",
+        "Time": "09:08:52",
+        "Summary": "Five Eyes government agencies have published a list of the software vulnerabilities that were most frequently exploited in malicious attacks in 2022.\nThe post Five Eyes Agencies Call Attention to Most Frequently Exploited Vulnerabilities appeared first on SecurityWeek."
     },
     {
-        "Title": "European Threat Intelligence Firm QuoIntelligence Raises $5.5 Million in Seed Funding",
-        "Link": "https://www.securityweek.com/european-threat-intelligence-firm-quointelligence-raises-5-5-million-in-seed-funding/",
-        "Date": "2023-07-27",
-        "Time": "14:49:53",
-        "Summary": "Threat intelligence services provider QuoIntelligence has raised \u20ac5 million ($5.5 million) in seed funding.\nThe post European Threat Intelligence Firm QuoIntelligence Raises $5.5 Million in Seed Funding appeared first on SecurityWeek."
+        "Title": "CISA Calls Urgent Attention to UEFI Attack Surfaces",
+        "Link": "https://www.securityweek.com/cisa-calls-urgent-attention-to-uefi-attack-surfaces/",
+        "Date": "2023-08-03",
+        "Time": "22:41:52",
+        "Summary": "The US government's cybersecurity agency describes UEFI as \"critical attack surface\" that requires urgent security attention.\nThe post CISA Calls Urgent Attention to UEFI Attack Surfaces appeared first on SecurityWeek."
     },
     {
-        "Title": "Head of US Cybersecurity Agency Sees Progress on Election Security, With More Work Needed for 2024",
-        "Link": "https://www.securityweek.com/head-of-us-cybersecurity-agency-sees-progress-on-election-security-with-more-work-needed-for-2024/",
-        "Date": "2023-07-27",
-        "Time": "14:48:52",
-        "Summary": "CISA Director Jen Easterly says more is needed to defend the integrity and resiliency of the election process ahead of the 2024 election.\nThe post Head of US Cybersecurity Agency Sees Progress on Election Security, With More Work Needed for 2024 appeared first on SecurityWeek."
+        "Title": "Jericho Security Raises $3 Million for Awareness Training Powered by Generative AI",
+        "Link": "https://www.securityweek.com/jericho-security-raises-3-million-for-awareness-training-powered-by-generative-ai/",
+        "Date": "2023-08-03",
+        "Time": "16:00:00",
+        "Summary": "Jericho Security raises $3 million in a pre-seed funding round to help organizations defend against emerging generative AI-powered phishing attacks.\nThe post Jericho Security Raises $3 Million for Awareness Training Powered by Generative AI appeared first on SecurityWeek."
     },
     {
-        "Title": "Hack Crew Responsible for Stolen Data, NATO Investigates Claims",
-        "Link": "https://www.darkreading.com/attacks-breaches/hack-crew-responsible-for-stolen-data-nato-investigates-claims",
-        "Date": "2023-07-28",
-        "Time": "20:45:00",
-        "Summary": "NATO asserts that their cyber experts continue to look into the claims and that its classified networks remain secure."
+        "Title": "Salesforce Zero-Day Exploited to Phish Facebook Credentials",
+        "Link": "https://www.darkreading.com/application-security/salesforce-zero-day-exploited-phish-facebook-credentials",
+        "Date": "2023-08-04",
+        "Time": "20:33:00",
+        "Summary": "The cyberattacks used the legitimate Salesforce.com domain by chaining the vulnerability to an abuse of Facebook's Web games platform, slipping past email protections."
+    },
+    {
+        "Title": "Burger King Serves Up Sensitive Data, No Mayo",
+        "Link": "https://www.darkreading.com/application-security/burger-king-serves-up-sensitive-data-cyberattackers-no-mayo",
+        "Date": "2023-08-04",
+        "Time": "19:22:00",
+        "Summary": "The incident marks the second time since 2019 that a misconfiguration could have let threat actors \"have it their way\" when it comes to BK's data."
+    },
+    {
+        "Title": "Hawaii's Gemini North Observatory Suspended After Cyberattack",
+        "Link": "https://www.darkreading.com/ics-ot/gemini-north-observatory-suspended-after-cyberattack",
+        "Date": "2023-08-04",
+        "Time": "19:20:00",
+        "Summary": "It is unclear who the threat actors were or what kind of cyberattack was attempted on the observatory, but for now it, and a sister site in Chile, remain closed to the skies."
+    },
+    {
+        "Title": "How to Talk So Your CISO Will Listen",
+        "Link": "https://www.darkreading.com/vulnerabilities-threats/how-to-talk-so-your-ciso-will-listen",
+        "Date": "2023-08-04",
+        "Time": "14:00:00",
+        "Summary": "Tailor your business project proposal to suit the language your company's CISO speaks, be it business, technical, or compliance. Do your research first and gather support from around the company."
+    },
+    {
+        "Title": "How To Deal With the Vagueness in New Cyber Regulations",
+        "Link": "https://www.darkreading.com/black-hat/how-to-deal-with-the-vagueness-in-new-cyber-regulations",
+        "Date": "2023-08-04",
+        "Time": "13:30:00",
+        "Summary": "Recent regulations for privacy, AI, and breaches tend to be overly broad, suggesting that the rulemakers lack tech acumen."
+    },
+    {
+        "Title": "Google, Microsoft Take Refuge in Rust Language's Better Security",
+        "Link": "https://www.darkreading.com/application-security/google-microsoft-take-refuge-in-rust-languages-better-security",
+        "Date": "2023-08-04",
+        "Time": "13:00:00",
+        "Summary": "More tech giants are turning to the Rust programming language for its built-in memory safety and other security features."
+    },
+    {
+        "Title": "Qualys Announces First-Party Software Risk Management Solution",
+        "Link": "https://www.darkreading.com/risk/qualys-announces-first-party-software-risk-management-solution",
+        "Date": "2023-08-03",
+        "Time": "20:59:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Mission Secure, Idaho National Laboratory Announce Partnership to Protect Critical Infrastructure",
+        "Link": "https://www.darkreading.com/ics-ot/mission-secure-idaho-national-laboratory-announce-partnership-to-protect-critical-infrastructure",
+        "Date": "2023-08-03",
+        "Time": "20:24:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Vulcan Cyber Attack Path Graph Targets Cloud-Scale Risk Prioritization and Mitigation",
+        "Link": "https://www.darkreading.com/vulnerabilities-threats/vulcan-cyber-attack-path-graph-targets-cloud-scale-risk-prioritization-and-mitigation",
+        "Date": "2023-08-03",
+        "Time": "20:20:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Center for Cyber Safety and Education Awards $174K in Cybersecurity Scholarships",
+        "Link": "https://www.darkreading.com/operations/center-for-cyber-safety-and-education-awards-174k-in-cybersecurity-scholarships",
+        "Date": "2023-08-03",
+        "Time": "20:14:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Hacktivist Group 'Mysterious Team Bangladesh' Goes on DDoS Rampage",
+        "Link": "https://www.darkreading.com/dr-global/hactivist-group-mysterious-team-bangladesh-goes-on-ddos-rampage",
+        "Date": "2023-08-03",
+        "Time": "17:39:00",
+        "Summary": "The emerging threat has carried out 750 DDoS attacks and 78 website defacements in just one year to support its religious and political motives."
+    },
+    {
+        "Title": "Cult of the Dead Cow Hacktivists Give Life to 'Privacy-First' App Framework",
+        "Link": "https://www.darkreading.com/application-security/cult-of-the-dead-cow-privacy-first-app-framework",
+        "Date": "2023-08-03",
+        "Time": "17:30:00",
+        "Summary": "The well-known collective is taking on targeted advertising with the Veilid framework and says it wants to make the Internet accessible to everyone who fears being monetized."
+    },
+    {
+        "Title": "World Cup Glory Looms, and So Do Cyber Threats, Microsoft Warns",
+        "Link": "https://www.darkreading.com/ics-ot/world-cup-glory-looms-cyber-threats-microsoft-warns",
+        "Date": "2023-08-03",
+        "Time": "17:15:00",
+        "Summary": "The attack surface of a live event like this summer\u2019s World Cup in Australia and New Zealand rivals that of a large multinational enterprise, or even a small city."
+    },
+    {
+        "Title": "Exclusive: CISA Sounds the Alarm on UEFI Security",
+        "Link": "https://www.darkreading.com/application-security/cisa-sounds-alarm-uefi-security",
+        "Date": "2023-08-03",
+        "Time": "17:00:00",
+        "Summary": "Had Microsoft had adopted a more secure update path to mitigate the BlackLotus UEFI bootkit, it might already be eliminated, a CISA official says."
+    },
+    {
+        "Title": "As Artificial Intelligence Accelerates, Cybercrime Innovates",
+        "Link": "https://www.darkreading.com/risk/as-artificial-intelligence-accelerates-cybercrime-innovates",
+        "Date": "2023-08-03",
+        "Time": "17:00:00",
+        "Summary": "Rare government, industry alignment on AI threats means we have an opportunity to make rapid strides to improve cybersecurity and slip the hold cybercriminals have on us."
+    },
+    {
+        "Title": "Russia's 'Midnight Blizzard' Hackers Launch Flurry of Microsoft Teams Attacks",
+        "Link": "https://www.darkreading.com/ics-ot/russia-midnight-blizzard-hackers-microsoft-teams-attacks",
+        "Date": "2023-08-03",
+        "Time": "15:49:00",
+        "Summary": "The Nobelium APT is launching highly targeted Teams-based phishing attacks on government and industrial targets using compromised Microsoft 365 tenants, with the aim of data theft and cyber espionage."
+    },
+    {
+        "Title": "Piles of Unpatched IoT, OT Devices Attract ICS Cyberattacks",
+        "Link": "https://www.darkreading.com/ics-ot/unpatched-iot-ot-devices-pile-up-ics-cyberattacks",
+        "Date": "2023-08-03",
+        "Time": "14:08:31",
+        "Summary": "Industrial devices are less likely to be patched due to expensive downtime, and threat actors have taken notice."
+    },
+    {
+        "Title": "How to Create an Effective GRC Program: 3 Phases",
+        "Link": "https://www.darkreading.com/risk/how-to-create-an-effective-grc-program-3-phases",
+        "Date": "2023-08-03",
+        "Time": "14:00:00",
+        "Summary": "A crawl, walk, run approach allows organizations to establish a governance, risk, and compliance (GRC) program that grows and matures with the business."
+    },
+    {
+        "Title": "CISOs Need Backing to Take Charge of Security",
+        "Link": "https://www.darkreading.com/edge-articles/cisos-need-backing-to-take-charge-of-security",
+        "Date": "2023-08-02",
+        "Time": "23:50:00",
+        "Summary": "Unless the CEO and other C-suite executives defer to the CISO's decisions on cybersecurity, is the CISO really running things?"
+    },
+    {
+        "Title": "Russian APT 'BlueCharlie' Swaps Infrastructure to Evade Detection",
+        "Link": "https://www.darkreading.com/attacks-breaches/russian-apt-bluecharlie-swaps-infrastructure-to-evade-detection",
+        "Date": "2023-08-02",
+        "Time": "23:02:00",
+        "Summary": "Despite being outed earlier this year, the advanced persistent threat group is trying to sneak past researchers again."
+    },
+    {
+        "Title": "Menlo Security Establishes Browser Security With AI-Powered Phishing and Ransomware Protection",
+        "Link": "https://www.darkreading.com/attacks-breaches/menlo-security-establishes-browser-security-with-ai-powered-phishing-and-ransomware-protection",
+        "Date": "2023-08-02",
+        "Time": "21:32:00",
+        "Summary": ""
+    },
+    {
+        "Title": "BeyondTrust's Identity Security Insights Provides Unprecedented Visibility into Identity Threats",
+        "Link": "https://www.darkreading.com/endpoint/beyondtrust-s-identity-security-insights-provides-unprecedented-visibility-into-identity-threats",
+        "Date": "2023-08-02",
+        "Time": "21:25:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Guardio Uncovers Zero-Day Vulnerability in Salesforce's Email Services",
+        "Link": "https://www.darkreading.com/attacks-breaches/guardio-uncovers-zero-day-vulnerability-in-salesforce-s-email-services",
+        "Date": "2023-08-02",
+        "Time": "21:15:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Tanium Selected by DHS CISA to Join the Joint Cyber Defense Collaborative",
+        "Link": "https://www.darkreading.com/attacks-breaches/tanium-selected-by-dhs-cisa-to-join-the-joint-cyber-defense-collaborative",
+        "Date": "2023-08-02",
+        "Time": "21:11:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Solvo Unveils SecurityGenie: A Revolutionary ChatGPT-Like Solution for Cloud Security Teams",
+        "Link": "https://www.darkreading.com/cloud/solvo-unveils-securitygenie-a-revolutionary-chatgpt-like-solution-for-cloud-security-teams",
+        "Date": "2023-08-02",
+        "Time": "20:50:00",
+        "Summary": ""
+    },
+    {
+        "Title": "SynSaber and ICS Advisory Project Identify Vulnerability Trends Within The Critical Infrastructure Sector",
+        "Link": "https://www.darkreading.com/ics-ot/synsaber-and-ics-advisory-project-identify-vulnerability-trends-within-the-critical-infrastructure-sector",
+        "Date": "2023-08-02",
+        "Time": "20:43:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Global Optical Sensor Market to Reach $45.56B by 2030, Rising Demand in Consumer Electronics and IoT Applications",
+        "Link": "https://www.darkreading.com/operations/global-optical-sensor-market-to-reach-45-56b-by-2030",
+        "Date": "2023-08-02",
+        "Time": "20:37:00",
+        "Summary": ""
+    },
+    {
+        "Title": "VALIC Retirement Services Company Experiences PBI Data Breach Exposing Approximately 798,000 Social Security Numbers",
+        "Link": "https://www.darkreading.com/attacks-breaches/valic-retirement-services-company-experiences-pbi-data-breach-exposing-approximately-798-000-social-security-numbers",
+        "Date": "2023-08-02",
+        "Time": "20:29:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Instagram Flags AI-Generated Content",
+        "Link": "https://www.darkreading.com/application-security/instagram-flags-ai-generated-content",
+        "Date": "2023-08-02",
+        "Time": "20:19:00",
+        "Summary": "Amid the national discussion about AI safety and non-human-originated content in the US, an app researcher spotted an effort by the social media app to flag AI posts for its 2+ billion users."
+    },
+    {
+        "Title": "Iranian Company Plays Host to Reams of Ransomware, APT Groups",
+        "Link": "https://www.darkreading.com/dr-global/iranian-company--host-ransomware-apt-groups",
+        "Date": "2023-08-02",
+        "Time": "18:49:00",
+        "Summary": "Cloudzy is a command-and-control provider (C2P) to APT groups in Iran, North Korea, and Russia, according to Halcyon."
+    },
+    {
+        "Title": "Iran's APT34 Hits UAE With Supply Chain Attack",
+        "Link": "https://www.darkreading.com/dr-global/iran-apt34-uae-supply-chain-attack",
+        "Date": "2023-08-02",
+        "Time": "18:10:11",
+        "Summary": "The prolific APT, also known as OilRig, was caught targeting an IT company's government clients in the region, with the aim of carrying out cyber espionage."
+    },
+    {
+        "Title": "Hot Topic Apparel Brand Faces Credential-Stuffing Attack",
+        "Link": "https://www.darkreading.com/application-security/hot-topic-apparel-brand-faces-credential-stuffing-attack",
+        "Date": "2023-08-02",
+        "Time": "17:54:00",
+        "Summary": "Due to the nature of the attack, Hot Topic says that it was unable to tell which accounts were accessed by legitimate users and which were accessed by threat actors, making the situation all the more difficult."
+    },
+    {
+        "Title": "Cyber-Insurance Underwriting Is Still Stuck in the Dark Ages",
+        "Link": "https://www.darkreading.com/risk/cyber-insurance-underwriting-is-still-stuck-in-the-dark-ages",
+        "Date": "2023-08-02",
+        "Time": "17:00:00",
+        "Summary": "Innovations in continuous controls monitoring may be the only way underwriters can offer cyber-insurance policies that make sense in the market."
+    },
+    {
+        "Title": "Utilities Face Security Challenges as They Embrace Data in New Ways",
+        "Link": "https://www.darkreading.com/attacks-breaches/utilities-face-security-challenges-as-they-embrace-data-in-new-ways",
+        "Date": "2023-08-02",
+        "Time": "14:00:00",
+        "Summary": "A culture of cybersecurity and implementing industry best practices can go a long way toward protecting a utility."
+    },
+    {
+        "Title": "Tesla Jailbreak Unlocks Theft of In-Car Paid Features",
+        "Link": "https://www.darkreading.com/application-security/tesla-jailbreak-unlocks-theft-in-car-paid-features",
+        "Date": "2023-08-02",
+        "Time": "14:00:00",
+        "Summary": "Want heated seats for free? Self-driving in Europe despite a regulatory ban? Researchers have discovered the road to free car-modding on the popular Tesla EVs."
+    },
+    {
+        "Title": "Unified XDR and SIEM Alleviate Security Alert Fatigue",
+        "Link": "https://www.darkreading.com/microsoft/unified-xdr-and-siem-alleviate-security-alert-fatigue",
+        "Date": "2023-08-02",
+        "Time": "12:00:00",
+        "Summary": "By integrating detection response with information and event management, organizations can move beyond protective controls and harden their defenses."
+    },
+    {
+        "Title": "White House Cyber Workforce Strategy: No Quick Fix for Skills Shortage",
+        "Link": "https://www.darkreading.com/careers-and-people/white-house-cyber-workforce-strategy-no-quick-fix-for-skills-shortage",
+        "Date": "2023-08-01",
+        "Time": "21:41:00",
+        "Summary": "A lot of what the strategy proposes is well-intentioned but somewhat aspirational at the moment, industry experts say."
+    },
+    {
+        "Title": "Devo and Cybermindz Partner to Address the Mental Health of Front-Line Cybersecurity Workers in the US",
+        "Link": "https://www.darkreading.com/operations/devo-and-cybermindz-partner-to-address-the-mental-health-of-front-line-cybersecurity-workers-in-the-us",
+        "Date": "2023-08-01",
+        "Time": "21:35:00",
+        "Summary": ""
+    },
+    {
+        "Title": "MEF and CyberRatings.org Partner on SASE Certification Program",
+        "Link": "https://www.darkreading.com/cloud/mef-and-cyberratings-org-partner-on-sase-certification-program",
+        "Date": "2023-08-01",
+        "Time": "21:25:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Forescout's Risk and Exposure Management Solution Delivers Streamlined, Quantitative Approach to Cyber Asset Risk Management",
+        "Link": "https://www.darkreading.com/risk/forescout-s-risk-and-exposure-management-solution-delivers-streamlined-quantitative-approach-to-cyber-asset-risk-management",
+        "Date": "2023-08-01",
+        "Time": "21:21:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Nile Raises $175M Series C Funding to Redefine Enterprise Networks",
+        "Link": "https://www.darkreading.com/operations/nile-raises-175m-series-c-funding-to-redefine-enterprise-networks",
+        "Date": "2023-08-01",
+        "Time": "21:18:00",
+        "Summary": ""
+    },
+    {
+        "Title": "Canon Inkjet Printers at Risk for Third-Party Compromise via Wi-Fi",
+        "Link": "https://www.darkreading.com/endpoint/canon-inkjet-printers-at-risk-for-third-party-compromise-via-wi-fi",
+        "Date": "2023-08-01",
+        "Time": "20:50:00",
+        "Summary": "Nearly 200 models are affected by vulnerability that may give wireless access to unauthorized third parties."
+    },
+    {
+        "Title": "Space Pirates Turn Cyber Sabers on Russian, Serbian Organizations",
+        "Link": "https://www.darkreading.com/threat-intelligence/space-pirates-train-cyber-sabers-on-russian-serbian-organizations",
+        "Date": "2023-08-01",
+        "Time": "20:30:00",
+        "Summary": "The attackers have expanded beyond backdoors and recently started using Deed RAT to step up their attacks."
+    },
+    {
+        "Title": "Apple Users Open to Remote Control via Tricky macOS Malware",
+        "Link": "https://www.darkreading.com/application-security/apple-users-remote-control-tricky-macos-malware",
+        "Date": "2023-08-01",
+        "Time": "17:25:47",
+        "Summary": "The Hidden Virtual Network Computing (hVNC) malware infests Macs and silently executes complete takeovers, with no user permission needed. It also sports persistence through reboots."
+    },
+    {
+        "Title": "'DarkBERT' GPT-Based Malware Trains Up on the Entire Dark Web",
+        "Link": "https://www.darkreading.com/application-security/gpt-based-malware-trains-dark-web",
+        "Date": "2023-08-01",
+        "Time": "17:17:00",
+        "Summary": "The DarkBART and DarkBERT cybercriminal chatbots, based on Google Bard, represent a major leap ahead for adversarial AI, including Google Lens integration for images and instant access to the whole of the cyber-underground knowledge base."
+    },
+    {
+        "Title": "Lessons Not Learned From Software Supply Chain Attacks",
+        "Link": "https://www.darkreading.com/attacks-breaches/lessons-not-learned-from-software-supply-chain-attacks",
+        "Date": "2023-08-01",
+        "Time": "17:00:00",
+        "Summary": "Businesses that develop business-, mission-, or safety-critical software must learn from previous victims of software supply chain attacks."
+    },
+    {
+        "Title": "CISA: 'Submarine' Backdoor Torpedoes Barracuda Email Security",
+        "Link": "https://www.darkreading.com/attacks-breaches/cisa-submarine-backdoor-barracuda-email-security",
+        "Date": "2023-08-01",
+        "Time": "16:26:00",
+        "Summary": "A China-nexus cyber-espionage campaign rages on with the fourth backdoor to surface in the wild that takes advantage of the CVE-2023-2868 zero-day security bug \u2014 with severe threat of lateral movement, CISA warns."
+    },
+    {
+        "Title": "BloodHound Rewrites Open Source Tool, Launches Community Edition",
+        "Link": "https://www.darkreading.com/dr-tech/bloodhound-open-source-community-edition",
+        "Date": "2023-08-01",
+        "Time": "15:09:45",
+        "Summary": "The open source ecosystem for offensive and defensive security technologies is flourishing, giving security teams access to a wide range of tools to do their jobs."
+    },
+    {
+        "Title": "Why the California Delete Act Matters",
+        "Link": "https://www.darkreading.com/endpoint/why-the-california-delete-act-matters",
+        "Date": "2023-08-01",
+        "Time": "14:00:00",
+        "Summary": "Bill 362 is a perfect template for a nationwide win against data brokers and the privacy infringements they cause."
+    },
+    {
+        "Title": "What Implementing Biometrics for Authentication Looks Like",
+        "Link": "https://www.darkreading.com/dr-tech/implementing-biometrics-for-authentication",
+        "Date": "2023-07-31",
+        "Time": "23:00:00",
+        "Summary": "CISOs are incorporating biometrics as part of their multifactor authentication strategies. This is what they should be thinking about during implementation."
+    },
+    {
+        "Title": "Protecting Intellectual Property When It Needs to Be Shared",
+        "Link": "https://www.darkreading.com/edge-articles/protecting-intellectual-property-when-it-needs-to-be-shared",
+        "Date": "2023-07-31",
+        "Time": "20:49:00",
+        "Summary": "Companies should use a variety of tools and strategies, both technical and policy, to protect their IP from third-party risk."
+    },
+    {
+        "Title": "China's Volt Typhoon APT Burrows Deeper Into US Critical Infrastructure",
+        "Link": "https://www.darkreading.com/vulnerabilities-threats/china-s-volt-typhoon-apt-burrows-us-critical-infrastructure",
+        "Date": "2023-07-31",
+        "Time": "20:42:00",
+        "Summary": "US officials are concerned that the Beijing-directed cyberattacks could be a precursor to military disruption and broader destructive attacks on citizens and businesses."
+    },
+    {
+        "Title": "Air-Gapped ICS Systems Targeted by Sophisticated Malware",
+        "Link": "https://www.darkreading.com/ics-ot/air-gapped-ics-systems-targeted-sophisticated-malware",
+        "Date": "2023-07-31",
+        "Time": "19:33:00",
+        "Summary": "Researchers uncovered new worming second-stage tools used to locally exfiltrate data from air gapped ICS environments, putting threat actors one step away from transmission of the info to a C2."
+    },
+    {
+        "Title": "Abyss Locker Ransomware Looks to Drown VMware's ESXi Servers",
+        "Link": "https://www.darkreading.com/ics-ot/abyss-locker-ransomware-vmware-esxi-servers",
+        "Date": "2023-07-31",
+        "Time": "18:05:29",
+        "Summary": "The 4-month-old ransomware gang is now actively targeting VMware's virtual environments with a second variant of its custom malware."
+    },
+    {
+        "Title": "Call of Duty Self-Spreading Worm Takes Aim at Player Lobbies",
+        "Link": "https://www.darkreading.com/application-security/call-of-duty-self-spreading-worm-player-lobbies",
+        "Date": "2023-07-31",
+        "Time": "17:50:00",
+        "Summary": "The revival of the beloved online multiplayer video game was short-lived once players detected unusual activity and behavior that portended malware."
+    },
+    {
+        "Title": "Website of Israeli Oil Refinery Taken Offline by Pro-Iranian Attackers",
+        "Link": "https://www.darkreading.com/dr-global/israeli-oil-refinery-taken-offline-pro-iranian-attackers",
+        "Date": "2023-07-31",
+        "Time": "14:34:31",
+        "Summary": "The apparent pro-Iranian Cyber Avengers posted images of BAZAN Groups's SCADA systems, diagrams, and programmable logic controller (PLC) code."
+    },
+    {
+        "Title": "Best Practices for Enterprise Private 5G Security",
+        "Link": "https://www.darkreading.com/omdia/best-practices-for-enterprise-private-5g-security",
+        "Date": "2023-07-31",
+        "Time": "14:00:00",
+        "Summary": "Omdia's latest research with Trend Micro and CTOne sheds light on 5G security challenges and ways to effectively extend enterprise-grade security to 5G networks"
+    },
+    {
+        "Title": "Summer Documentary Watch Party: 8 Sizzling Cybersecurity Tales",
+        "Link": "https://www.darkreading.com/operations/summer-documentary-watch-party-cybersecurity-tales",
+        "Date": "2023-07-31",
+        "Time": "12:53:34",
+        "Summary": "From the upcoming Billion Dollar Heist to docs on the Ashley Madison breach and Stuxnet, here are a bevy of films that can scratch that wanna-be hacker itch."
+    },
+    {
+        "Title": "Healthcare Innovation: A Safe and Secure Approach",
+        "Link": "https://www.darkreading.com/operations/healthcare-innovation-a-safe-and-secure-approach",
+        "Date": "2023-07-31",
+        "Time": "07:00:00",
+        "Summary": "Six focus areas to address the top security challenges facing healthcare organizations today."
     },
     {
         "Title": "CherryBlos Malware Uses OCR to Pluck Android Users' Cryptocurrency",
@@ -89,6 +495,13 @@
         "Date": "2023-07-28",
         "Time": "20:30:00",
         "Summary": "Techniques are similar to those in previous North Korean attacks and could be linked to well-known cyber-espionage organizations."
+    },
+    {
+        "Title": "NATO Hacked? Yes, Claims Hacktivist Crew",
+        "Link": "https://www.darkreading.com/attacks-breaches/hack-crew-responsible-for-stolen-data-nato-investigates-claims",
+        "Date": "2023-07-28",
+        "Time": "20:06:00",
+        "Summary": "NATO's cyber experts are looking into the potential breach, which could imply a dangerous compromise of internal systems."
     },
     {
         "Title": "Senator Blasts Microsoft for Negligence in 365 Email Breach",
@@ -357,419 +770,6 @@
         "Summary": "Cyberattackers have used a zero-day exploit to compromise up to 12 Norwegian government departments."
     },
     {
-        "Title": "Cybercrime as a Public Health Crisis",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/cybercrime-as-a-public-health-crisis",
-        "Date": "2023-07-25",
-        "Time": "17:00:00",
-        "Summary": "The impact of fraud on a victim's health and well-being can be more painful than the financial loss."
-    },
-    {
-        "Title": "Patch Now: Up to 900K MikroTik Routers Vulnerable to Total Takeover",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/up-to-900k-mikrotik-routers-vulnerable-total-takeover",
-        "Date": "2023-07-25",
-        "Time": "16:59:00",
-        "Summary": "Researchers have delivered working exploits for RouterOS, which when combined with default admin passwords can be a recipe for cyber disaster."
-    },
-    {
-        "Title": "'FraudGPT' Malicious Chatbot Now for Sale on Dark Web",
-        "Link": "https://www.darkreading.com/threat-intelligence/fraudgpt-malicious-chatbot-for-sale-dark-web",
-        "Date": "2023-07-25",
-        "Time": "16:39:24",
-        "Summary": "The subscription-based, generative AI-driven offering joins a growing trend toward \"generative AI jailbreaking\" to create ChatGPT copycat tools for cyberattacks."
-    },
-    {
-        "Title": "10 Free Purple Team Security Tools to Check Out",
-        "Link": "https://www.darkreading.com/dr-tech/10-free-purple-team-security-tools-2023",
-        "Date": "2023-07-25",
-        "Time": "16:20:54",
-        "Summary": "Check out this curated list of cool tools and platforms for both offensive security experts and defenders, all of which will be released or demoed at Black Hat USA 2023."
-    },
-    {
-        "Title": "Actively Exploited Apple Zero-Day Affects iPhone Kernel",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/actively-exploited-apple-zero-day-iphone-kernel",
-        "Date": "2023-07-25",
-        "Time": "15:34:00",
-        "Summary": "Apple has issued an emergency fix for the latest exploited zero-day bug found affecting its software in 2023 \u2014 a list that also includes the Operation Triangulation spyware flaws."
-    },
-    {
-        "Title": "Beyond ChatGPT: Organizations Must Protect Themselves Against the Power of AI",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/beyond-chatgpt-organizations-must-protect-themselves-against-the-power-of-ai",
-        "Date": "2023-07-25",
-        "Time": "14:00:00",
-        "Summary": "Artificial intelligence-powered threats are already affecting businesses, schools, hospitals, and individuals, and it will only get worse as AI advances."
-    },
-    {
-        "Title": "Managing Human Risk: Discoveries From SANS 2023 Security Awareness Report",
-        "Link": "https://www.darkreading.com/endpoint/managing-human-risk-discoveries-from-sans-2023-security-awareness-report",
-        "Date": "2023-07-24",
-        "Time": "22:23:00",
-        "Summary": ""
-    },
-    {
-        "Title": "Global Security Assurance Market to Reach $13B by 2030",
-        "Link": "https://www.darkreading.com/operations/global-security-assurance-market-to-reach-13b-by-2030",
-        "Date": "2023-07-24",
-        "Time": "22:06:00",
-        "Summary": ""
-    },
-    {
-        "Title": "CISOs Connect Launches the 2023 CISO Choice Awards",
-        "Link": "https://www.darkreading.com/careers-and-people/cisos-connect-launches-the-2023-ciso-choice-awards",
-        "Date": "2023-07-24",
-        "Time": "22:00:00",
-        "Summary": "CISOs select winners based on real-world experience; vendor submissions now open."
-    },
-    {
-        "Title": "OneTrust Secures $150M Investment Led by Generation Investment Management",
-        "Link": "https://www.darkreading.com/endpoint/onetrust-secures-150m-investment-led-by-generation-investment-management",
-        "Date": "2023-07-24",
-        "Time": "21:57:00",
-        "Summary": "Funding will accelerate platform innovation as organizations scale trust across privacy, security, ethics, and ESG."
-    },
-    {
-        "Title": "TARA Partners With Plante Moran to Deliver Risk-Based Vulnerability Management",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/tara-partners-with-plante-moran-to-deliver-risk-based-vulnerability-management",
-        "Date": "2023-07-24",
-        "Time": "21:55:00",
-        "Summary": ""
-    },
-    {
-        "Title": "China Propaganda Spreads via US News Sites, Freelancers, Times Square",
-        "Link": "https://www.darkreading.com/threat-intelligence/china-propaganda-spreads-via-us-news-sites-freelancers-times-square",
-        "Date": "2023-07-24",
-        "Time": "20:55:40",
-        "Summary": "A widespread disinformation campaign aimed at Americans wasn't that effective, but it was certainly creative, even slipping in influence articles to legitimate news outlets like AZCentral.com."
-    },
-    {
-        "Title": "Orgs Face Record $4.5M Per Data Breach Incident",
-        "Link": "https://www.darkreading.com/attacks-breaches/orgs-record-4.5m-data-breach-incident",
-        "Date": "2023-07-24",
-        "Time": "20:25:00",
-        "Summary": "Cl0p stands to make $100M on the MOVEit campaign, and according to a just-released survey, more than half of businesses are willing to pass data breach costs onto customers."
-    },
-    {
-        "Title": "Are AI-Engineered Threats FUD or Reality?",
-        "Link": "https://www.darkreading.com/dr-tech/are-ai-engineered-threats-fud-or-reality-",
-        "Date": "2023-07-24",
-        "Time": "20:05:00",
-        "Summary": "The rise of generative AI is creating new ways to both attack and defend assets. Which threats are solid and which are vapor?"
-    },
-    {
-        "Title": "Atlassian RCE Bugs Plague Confluence, Bamboo",
-        "Link": "https://www.darkreading.com/cloud/atlassian-rce-bugs-plague-confluence-bamboo",
-        "Date": "2023-07-24",
-        "Time": "19:05:00",
-        "Summary": "The security vulnerabilities allow full takeover of Atlassian instances, so admins should patch now."
-    },
-    {
-        "Title": "KillNet's Kremlin Connection Unclear as the Cybercrime Collective Grows",
-        "Link": "https://www.darkreading.com/threat-intelligence/killnet-kremlin-connection-unclear-cybercrime-collective-grows",
-        "Date": "2023-07-24",
-        "Time": "17:32:00",
-        "Summary": "KillNet is amassing members, capabilities, and know-how, as it looks to consolidate cybercrime power under its own umbrella."
-    },
-    {
-        "Title": "North Korean Cyberspies Target GitHub Developers",
-        "Link": "https://www.darkreading.com/attacks-breaches/north-korean-cyber-spies-target-github-developers",
-        "Date": "2023-07-24",
-        "Time": "16:26:00",
-        "Summary": "The North Korean APT is setting up legitimate accounts on GitHub and social media platforms to pose as developers or recruiters \u2014 ultimately to fool targets into loading npm repositories with malicious code."
-    },
-    {
-        "Title": "Designing a Security Strategy for Defending Multicloud Architectures",
-        "Link": "https://www.darkreading.com/cloud/designing-a-security-strategy-for-defending-multicloud-architectures",
-        "Date": "2023-07-24",
-        "Time": "14:00:00",
-        "Summary": "Complex security issues arise when different clouds and computing models interact."
-    },
-    {
-        "Title": "How to Put the Sec in DevSecOps",
-        "Link": "https://www.darkreading.com/operations/how-to-put-the-sec-in-devsecops",
-        "Date": "2023-07-24",
-        "Time": "07:00:00",
-        "Summary": "Learn the importance of adding security practices into DevOps life cycles and how to make security stronger."
-    },
-    {
-        "Title": "What C-Suite Leaders Need to Know About XDR",
-        "Link": "https://www.darkreading.com/endpoint/what-c-suite-leaders-need-to-know-about-xdr",
-        "Date": "2023-07-24",
-        "Time": "07:00:00",
-        "Summary": "Considering adopting extended detection and response (XDR) in your cybersecurity defense program? Here's what you need to know about the technology platform."
-    },
-    {
-        "Title": "BGP Software Vulnerabilities Overlooked in Networking Infrastructure",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/bgp-software-vulnerabilities-under-the-microscope-in-black-hat-session",
-        "Date": "2023-07-21",
-        "Time": "21:43:00",
-        "Summary": "There are blind spots at the very core of IP networking, Forescout researchers say, looking to parse overlooked vulnerabilities in the Border Gateway Protocol."
-    },
-    {
-        "Title": "Banks in Attackers' Crosshairs, via Open Source Software Supply Chain",
-        "Link": "https://www.darkreading.com/attacks-breaches/banks-in-attackers-crosshairs-via-open-source-software-supply-chain",
-        "Date": "2023-07-21",
-        "Time": "20:41:00",
-        "Summary": "In separate targeted incidents, threat actors tried to upload malware into the Node Package Manager registry to gain access and steal credentials."
-    },
-    {
-        "Title": "Rootkit Attack Detections Increase at UAE Businesses",
-        "Link": "https://www.darkreading.com/dr-global/rootkit-attack-detections-increase-uae-businesses",
-        "Date": "2023-07-21",
-        "Time": "17:52:00",
-        "Summary": "Detections of rootkit attacks against businesses in the United Arab Emirates are up 167% in 2023, with an increased view of their use in the Middle East overall."
-    },
-    {
-        "Title": "CVSS 4.0 Is Here, but Prioritizing Patches Still a Hard Problem",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/cvss-4-prioritizing-patches-hard-problem",
-        "Date": "2023-07-21",
-        "Time": "17:26:00",
-        "Summary": "CVSS Version 4 arguably performs better, but companies also need to tailor any measure of threat to their own environment to quickly evaluate new software bugs for patching order."
-    },
-    {
-        "Title": "Saudi Arabia's Tuwaiq Academy Opens Cybersecurity Bootcamp",
-        "Link": "https://www.darkreading.com/dr-global/saudi-arabia-tuwaiq-academy-registration-cybersecurity-academy",
-        "Date": "2023-07-21",
-        "Time": "16:47:00",
-        "Summary": "Registration has opened for the cybersecurity specialty track at Tuwaiq Academy, where students will learn a variety of related skills."
-    },
-    {
-        "Title": "Microsoft 365 Breach Risk Widens to Millions of Azure AD Apps",
-        "Link": "https://www.darkreading.com/cloud/microsoft-365-breach-risk-widens-millions-of-azure-ad-apps",
-        "Date": "2023-07-21",
-        "Time": "16:45:00",
-        "Summary": "China-linked APT actors could have single-hop access to the gamut of Microsoft cloud services and apps, including SharePoint, Teams, and OneDrive, among many others."
-    },
-    {
-        "Title": "White House, Big Tech Ink Commitments to Secure AI",
-        "Link": "https://www.darkreading.com/operations/white-house-big-tech-commitments-secure-ai",
-        "Date": "2023-07-21",
-        "Time": "16:18:00",
-        "Summary": "With Big Tech companies pledging voluntary safeguards, industry-watchers assume that smaller AI purveyors will follow in their wake to make AI safer for all."
-    },
-    {
-        "Title": "Meet the Finalists for the 2023 Pwnie Awards",
-        "Link": "https://www.darkreading.com/edge/meet-the-finalists-for-the-2023-pwnie-awards",
-        "Date": "2023-07-21",
-        "Time": "16:07:00",
-        "Summary": "Hosts Sophia d'Antoine and Ian Roos presented the list at Summercon in Brooklyn, New York, where they also handed out a surprise Lifetime Achievement Award."
-    },
-    {
-        "Title": "The Dark Side of AI",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/the-dark-side-of-ai",
-        "Date": "2023-07-21",
-        "Time": "14:00:00",
-        "Summary": "Sophisticated fraudsters are exploiting ChatGPT and CAPTCHAs to evade enterprise security defenses."
-    },
-    {
-        "Title": "North Korean Attackers Targeted Crypto Companies in JumpCloud Breach",
-        "Link": "https://www.darkreading.com/attacks-breaches/north-korean-attackers-targeted-crypto-companies-in-jumpcloud-breach",
-        "Date": "2023-07-20",
-        "Time": "21:48:00",
-        "Summary": "Analysts continue piecing together who breached JumpCloud, why, and what else they've managed to pull off."
-    },
-    {
-        "Title": "TrustArc Announces TRUSTe EU-US Data Privacy Framework Verification",
-        "Link": "https://www.darkreading.com/operations/trustarc-announces-new-truste-eu-us-data-privacy-framework-verification",
-        "Date": "2023-07-20",
-        "Time": "20:43:00",
-        "Summary": ""
-    },
-    {
-        "Title": "Deloitte Global Expands MXDR Cybersecurity SaaS Solution With Operational Technology and Identity Modules",
-        "Link": "https://www.darkreading.com/ics-ot/deloitte-global-expands-mxdr-cybersecurity-saas-solution-with-operational-technology-and-identity-modules",
-        "Date": "2023-07-20",
-        "Time": "20:24:00",
-        "Summary": ""
-    },
-    {
-        "Title": "Mallox Ransomware Group Activity Shifts Into High Gear",
-        "Link": "https://www.darkreading.com/attacks-breaches/mallox-ransomware-group-shifts-into-high-gear",
-        "Date": "2023-07-20",
-        "Time": "20:03:00",
-        "Summary": "Malicious activity targeting vulnerable SQL servers has surged 174% compared to 2022, Palo Alto's Unit 42 says."
-    },
-    {
-        "Title": "Critical Infrastructure Workers Better At Spotting Phishing",
-        "Link": "https://www.darkreading.com/ics-ot/critical-infrastructure-workers-spotting-phishes",
-        "Date": "2023-07-20",
-        "Time": "19:37:00",
-        "Summary": "Critical-infrastructure employees are comparatively more engaged in organizational security \u2014 and compliance training \u2014 than those in other sectors."
-    },
-    {
-        "Title": "Kevin Mandia Brings the HammerCon",
-        "Link": "https://www.darkreading.com/edge/kevin-mandia-brings-the-hammercon",
-        "Date": "2023-07-20",
-        "Time": "19:08:00",
-        "Summary": "US Air Force veteran and Mandiant CEO discussed dwell time and state-sponsored attacks at the Military Cyber Professionals Association's HammerCon conference."
-    },
-    {
-        "Title": "Est\u00e9e Lauder Breached in Twin MOVEit Hacks, by Different Ransom Groups",
-        "Link": "https://www.darkreading.com/attacks-breaches/estee-lauder-moveit-hacks-different-ransom-groups",
-        "Date": "2023-07-20",
-        "Time": "18:27:10",
-        "Summary": "The cosmetics conglomerate was apparently breached through the infamous MOVEit flaw by both Cl0p and BlackCat, at roughly the same time."
-    },
-    {
-        "Title": "Apache OpenMeetings Wide Open to Account Takeover, Code Execution",
-        "Link": "https://www.darkreading.com/remote-workforce/apache-openmeetings-account-takeover-code-execution",
-        "Date": "2023-07-20",
-        "Time": "17:21:04",
-        "Summary": "Researcher discovers vulnerabilities in the open source Web application, which were fixed in the latest Apache OpenMeeting update."
-    },
-    {
-        "Title": "Docker Leaks API Secrets & Private Keys, as Cybercriminals Pounce",
-        "Link": "https://www.darkreading.com/cloud/docker-leaks-api-secrets-private-keys-cybercriminals",
-        "Date": "2023-07-20",
-        "Time": "17:15:00",
-        "Summary": "Researchers found that the private keys and secrets they discovered being exposed within the Docker framework are already being used in the wild."
-    },
-    {
-        "Title": "Should You Be Using a Cybersecurity Careers Framework?",
-        "Link": "https://www.darkreading.com/operations/should-you-be-using-cybersecurity-careers-framework",
-        "Date": "2023-07-20",
-        "Time": "17:00:00",
-        "Summary": "Frameworks can help improve hiring practices and retention, and help guide education \u2014 which makes them an important asset worth exploiting."
-    },
-    {
-        "Title": "Plurilock Announces Generative AI 'Guardrails' Product, PromptGuard",
-        "Link": "https://www.darkreading.com/operations/plurilock-announces-generative-ai-guardrails-product-promptguard",
-        "Date": "2023-07-20",
-        "Time": "16:18:00",
-        "Summary": "The SaaS product is available under the Company's early access program as a closed, invitation-only beta experience, as part of the Plurilock AI platform."
-    },
-    {
-        "Title": "Google Categorizes 6 Real-World AI Attacks to Prepare for Now",
-        "Link": "https://www.darkreading.com/attacks-breaches/google-red-team-provides-insight-on-real-world-ai-attacks",
-        "Date": "2023-07-20",
-        "Time": "16:07:45",
-        "Summary": "The models powering generative AI like ChatGPT are open to several common attack vectors that organizations need to understand and get ready for, according to Google's dedicated AI Red Team."
-    },
-    {
-        "Title": "Hacker-Turned-Security-Researcher Kevin Mitnick Dies Aged 59",
-        "Link": "https://www.darkreading.com/operations/hacker-security-researcher-kevin-mitnick-dies-aged-59",
-        "Date": "2023-07-20",
-        "Time": "15:45:52",
-        "Summary": "The controversial former computer hacker has lost his battle with pancreatic cancer."
-    },
-    {
-        "Title": "Enterprise Choices in Measuring Risk",
-        "Link": "https://www.darkreading.com/omdia/enterprise-choices-in-measuring-risk",
-        "Date": "2023-07-20",
-        "Time": "14:00:00",
-        "Summary": "Organizations have options when it comes to choosing the right tool to quantify risk"
-    },
-    {
-        "Title": "Attackers Exploit Citrix Zero-Day Bug to Pwn NetScaler ADC, Gateway",
-        "Link": "https://www.darkreading.com/remote-workforce/attackers-exploit-zero-day-bug-in-netscaler-adc-and-gateway-products",
-        "Date": "2023-07-20",
-        "Time": "13:57:00",
-        "Summary": "Citrix is urging organizations to immediately patch the unauthenticated RCE vulnerability."
-    },
-    {
-        "Title": "Microsoft Relents, Offers Free Critical Logging to All 365 Customers",
-        "Link": "https://www.darkreading.com/application-security/microsoft-relents-offers-free-key-logging-365-customers",
-        "Date": "2023-07-20",
-        "Time": "01:00:00",
-        "Summary": "Industry pushback prompts Microsoft to drop premium pricing for access to cloud logging data."
-    },
-    {
-        "Title": "Infosec Doesn't Know What AI Tools Orgs Are Using",
-        "Link": "https://www.darkreading.com/tech-trends/infosec-doesnt-know-what-ai-tools-orgs-are-using",
-        "Date": "2023-07-20",
-        "Time": "00:00:00",
-        "Summary": "Hint: Organizations are already using a range of AI tools, with ChatGPT and Jasper.ai leading the way."
-    },
-    {
-        "Title": "Black Hat Offers Pen-Testing Certification Exam",
-        "Link": "https://www.darkreading.com/dr-tech/black-hat-offers-certification-exams-for-penetration-testers",
-        "Date": "2023-07-20",
-        "Time": "00:00:00",
-        "Summary": "The new independent exam track at Black Hat USA will feature an opportunity for attendees to take a practical exam to be certified in penetration testing."
-    },
-    {
-        "Title": "Graylog Acquires Resurface.io's API Security Solution",
-        "Link": "https://www.darkreading.com/application-security/graylog-acquires-resurface-io-s-api-security-solution",
-        "Date": "2023-07-19",
-        "Time": "23:00:00",
-        "Summary": "Strengthens threat detection and incident response portfolio to address growing API threats."
-    },
-    {
-        "Title": "Cloud Range Appoints Cybersecurity Leader Galina Antova to Board of Directors",
-        "Link": "https://www.darkreading.com/ics-ot/cloud-range-appoints-cybersecurity-leader-galina-antova-to-board-of-directors",
-        "Date": "2023-07-19",
-        "Time": "22:51:00",
-        "Summary": "Supports company focus on bridging the cyber skills gap, strengthening cyber defenses, and protecting the front lines."
-    },
-    {
-        "Title": "Checkmarx Announces CheckAI Plugin for ChatGPT to Detect and Prevent Attacks Against ChatGPT-Generated Code",
-        "Link": "https://www.darkreading.com/attacks-breaches/checkmarx-announces-checkai-plugin-for-chatgpt-to-detect-and-prevent-attacks-against-chatgpt-generated-code",
-        "Date": "2023-07-19",
-        "Time": "22:46:00",
-        "Summary": "Checkmarx's industry-first AI AppSec plugin works within the ChatGPT interface to protect against new attack types targeting GenAI-generated code."
-    },
-    {
-        "Title": "Netskope Launches Managed Service Provider Program",
-        "Link": "https://www.darkreading.com/operations/netskope-launches-managed-service-provider-program",
-        "Date": "2023-07-19",
-        "Time": "22:43:00",
-        "Summary": "Updated Evolve Partner Program offerings expand support and solution options for MSPs driving security modernization and network transformation."
-    },
-    {
-        "Title": "KnowBe4 Partners With Egress to Enhance Organizations' Inbound and Outbound Email Security Defenses",
-        "Link": "https://www.darkreading.com/risk/knowbe4-partners-with-egress-to-enhance-organizations-inbound-and-outbound-email-security-defenses",
-        "Date": "2023-07-19",
-        "Time": "22:27:00",
-        "Summary": "Egress also launches adaptive security architecture, which dynamically adjusts email security controls based on aggregated data including KnowBe4's user risk score."
-    },
-    {
-        "Title": "Netcraft Secures First Funding With Over $100M From Spectrum Equity",
-        "Link": "https://www.darkreading.com/operations/netcraft-secures-first-funding-with-over-100m-from-spectrum-equity",
-        "Date": "2023-07-19",
-        "Time": "22:19:00",
-        "Summary": ""
-    },
-    {
-        "Title": "HyperSense Fraud Management Now Available on Google Cloud",
-        "Link": "https://www.darkreading.com/vulnerabilities-threats/hypersense-fraud-management-now-available-on-google-cloud",
-        "Date": "2023-07-19",
-        "Time": "22:05:00",
-        "Summary": ""
-    },
-    {
-        "Title": "Study: Africa Cybersecurity Improves but Lacks Cross-Border Frameworks",
-        "Link": "https://www.darkreading.com/dr-global/study-africa-cybersecurity-improves-but-lacks-cross-border-frameworks",
-        "Date": "2023-07-19",
-        "Time": "21:57:10",
-        "Summary": "While cybersecurity preparedness in Africa is on the upswing, the continent still lacks agreements on international security standards and sharing threat intel."
-    },
-    {
-        "Title": "P2P Self-Replicating Cloud Worm Targets Redis",
-        "Link": "https://www.darkreading.com/application-security/new-cloud-worm-targets-redis-open-source-database-app-",
-        "Date": "2023-07-19",
-        "Time": "21:11:00",
-        "Summary": "Although not all Redis instances are vulnerable to the P2P worm variant, all of them can expect a compromise attempt, researchers warn."
-    },
-    {
-        "Title": "SophosEncrypt Ransomware Fools Security Researchers",
-        "Link": "https://www.darkreading.com/threat-intelligence/sophosencrypt-ransomware-fools-security-researchers",
-        "Date": "2023-07-19",
-        "Time": "21:00:00",
-        "Summary": "The ransomware-as-a-service offering was first assumed to be a red-team exercise before being detected for true malicious activity."
-    },
-    {
-        "Title": "China's APT41 Linked to WyrmSpy, DragonEgg Mobile Spyware",
-        "Link": "https://www.darkreading.com/threat-intelligence/china-s-apt41-linked-wyrmspy-dragonegg-mobile-spyware",
-        "Date": "2023-07-19",
-        "Time": "20:40:00",
-        "Summary": "Nation-states see the opportunity in targeting people directly through their mobile phones, in this case with sophisticated Android surveillanceware."
-    },
-    {
-        "Title": "Seed Group Brings Resecurity Options to UAE Region",
-        "Link": "https://www.darkreading.com/operations/seed-group-resecurity-options-uae",
-        "Date": "2023-07-19",
-        "Time": "19:33:05",
-        "Summary": "UAE's Seed Group is partnering with Resecurity to expand cybersecurity options in the Middle East and Africa."
-    },
-    {
         "Title": "Student Loan Breach Exposes 2.5M Records",
         "Link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
         "Date": "2022-08-31",
@@ -840,6 +840,20 @@
         "Summary": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack."
     },
     {
+        "Title": "Teach a Man to Phish and He\u2019s Set for Life",
+        "Link": "https://krebsonsecurity.com/2023/08/teach-a-man-to-phish-and-hes-set-for-life/",
+        "Date": "2023-08-04",
+        "Time": "13:49:15",
+        "Summary": "One frustrating aspect of email phishing is the frequency with which scammers fall back on tried-and-true methods that really have no business working these days. Like attaching a phishing email to a traditional, clean email message, or leveraging link redirects on LinkedIn, or abusing an encoding method that makes it easy to disguise booby-trapped Microsoft Windows files as relatively harmless documents."
+    },
+    {
+        "Title": "How Malicious Android Apps Slip Into Disguise",
+        "Link": "https://krebsonsecurity.com/2023/08/how-malicious-android-apps-slip-into-disguise/",
+        "Date": "2023-08-03",
+        "Time": "11:22:55",
+        "Summary": "Researchers say mobile malware purveyors have been abusing a bug in the Google Android platform that lets them sneak malicious code into benign mobile apps and evade security scanning tools. Google says it has updated its app malware detection mechanisms in response to the new research."
+    },
+    {
         "Title": "Russia Sends Cybersecurity CEO to Jail for 14 Years",
         "Link": "https://krebsonsecurity.com/2023/07/russia-sends-cybersecurity-ceo-to-jail-for-14-years/",
         "Date": "2023-07-26",
@@ -896,18 +910,228 @@
         "Summary": "If you've ever owned a domain name, the chances are good that at some point you've received a snail mail letter which appears to be a bill for a domain or website-related services. In reality, these misleading missives try to trick people into paying for useless services they never ordered, don't need, and probably will never receive. Here's a look at the most recent incarnation of this scam -- DomainNetworks -- and some clues about who may be behind it."
     },
     {
-        "Title": "Russian Cybersecurity Executive Arrested for Alleged Role in 2012 Megahacks",
-        "Link": "https://krebsonsecurity.com/2023/06/russian-cybersecurity-executive-arrested-for-alleged-role-in-2012-megahacks/",
-        "Date": "2023-06-29",
-        "Time": "18:30:08",
-        "Summary": "Nikita Kislitsin, formerly the head of network security for one of Russia's top cybersecurity firms, was arrested last week in Kazakhstan in response to 10-year-old hacking charges from the U.S. Department of Justice. Experts say Kislitsin's prosecution could soon put the Kazakhstan government in a sticky diplomatic position, as the Kremlin is already signaling that it intends to block his extradition to the United States."
+        "Title": "NYC Couple Pleads Guilty to Money Laundering in $3.6 Billion Bitfinex Hack",
+        "Link": "https://thehackernews.com/2023/08/nyc-couple-pleads-guilty-to-money.html",
+        "Date": "2023-08-04",
+        "Time": "17:43:00",
+        "Summary": "A married couple from New York City has pleaded guilty to money laundering charges in connection with the 2016 hack of cryptocurrency stock exchange Bitfinex, resulting in the theft of about 120,000 bitcoin.\nThe development comes more than a year after Ilya Lichtenstein, 35, and his wife, Heather Morgan, 33, were\u00a0arrested in February 2022, following the seizure of roughly 95,000 of the stolen"
     },
     {
-        "Title": "U.K. Cyber Thug \u201cPlugwalkJoe\u201d Gets 5 Years in Prison",
-        "Link": "https://krebsonsecurity.com/2023/06/u-k-cyber-thug-plugwalkjoe-gets-5-years-in-prison/",
-        "Date": "2023-06-27",
-        "Time": "19:44:03",
-        "Summary": "Joseph James \"PlugwalkJoe\" O'Connor, a 24-year-old from the United Kingdom who earned his 15 minutes of fame by participating in the July 2020 hack of Twitter, has been sentenced to five years in a U.S. prison. That may seem like harsh punishment for a brief and very public cyber joy ride. But O'Connor also pleaded guilty in a separate investigation involving a years-long spree of cyberstalking and cryptocurrency theft enabled by \"SIM swapping,\" a crime wherein fraudsters trick a mobile provider into diverting a customer's phone calls and text messages to a device they control."
+        "Title": "Webinar - Making PAM Great Again: Solving the Top 5 Identity Team PAM Challenges",
+        "Link": "https://thehackernews.com/2023/08/webinar-making-pam-great-again-solving.html",
+        "Date": "2023-08-04",
+        "Time": "16:36:00",
+        "Summary": "Privileged Access Management (PAM) solutions are widely acknowledged as the gold standard for securing critical privileged accounts. However, many security and identity teams face inherent obstacles during the PAM journey, hindering these solutions from reaching their full potential. These challenges deprive organizations of the resilience they seek, making it essential to address them"
+    },
+    {
+        "Title": "Malicious npm Packages Found Exfiltrating Sensitive Data from Developers",
+        "Link": "https://thehackernews.com/2023/08/malicious-npm-packages-found.html",
+        "Date": "2023-08-04",
+        "Time": "16:03:00",
+        "Summary": "Cybersecurity researchers have discovered a new bunch of malicious packages on the npm package registry that are designed to exfiltrate sensitive developer information.\nSoftware supply chain firm Phylum, which first identified the \"test\" packages on July 31, 2023, said they \"demonstrated increasing functionality and refinement,\" hours after which they were removed and re-uploaded under different"
+    },
+    {
+        "Title": "Major Cybersecurity Agencies Collaborate to Unveil 2022's Most Exploited Vulnerabilities",
+        "Link": "https://thehackernews.com/2023/08/major-cybersecurity-agencies.html",
+        "Date": "2023-08-04",
+        "Time": "12:32:00",
+        "Summary": "A four-year-old critical security flaw impacting Fortinet FortiOS SSL has emerged as one of the most routinely and frequently exploited vulnerabilities in 2022.\n\"In 2022, malicious cyber actors exploited older software vulnerabilities more frequently than recently disclosed vulnerabilities and targeted unpatched, internet-facing systems,\" cybersecurity and intelligence agencies from the Five"
+    },
+    {
+        "Title": "Malicious Apps Use Sneaky Versioning Technique to Bypass Google Play Store Scanners",
+        "Link": "https://thehackernews.com/2023/08/malicious-apps-use-sneaky-versioning.html",
+        "Date": "2023-08-03",
+        "Time": "21:48:00",
+        "Summary": "Threat actors are leveraging a technique called versioning to evade Google Play Store's malware detections and target Android users.\n\"Campaigns using versioning commonly target users' credentials, data, and finances,\" Google Cybersecurity Action Team (GCAT)\u00a0said\u00a0in its August 2023 Threat Horizons Report shared with The Hacker News.\nWhile versioning is not a new phenomenon, it's sneaky and hard"
+    },
+    {
+        "Title": "RFP Template for Browser Security",
+        "Link": "https://thehackernews.com/2023/07/rfp-template-for-browser-security.html",
+        "Date": "2023-08-03",
+        "Time": "20:40:00",
+        "Summary": "Increasing cyber threats and attacks have made protecting organizational data a paramount concern for businesses of all sizes. A group of experts have recognized the pressing need for comprehensive browser security solutions and collaborated to develop \"The Definitive\u00a0Browser Security RFP Template.\" This resource helps streamline the process of evaluating and procuring browser security platforms"
+    },
+    {
+        "Title": "New Version of Rilide Data Theft Malware Adapts to Chrome Extension Manifest V3",
+        "Link": "https://thehackernews.com/2023/08/new-version-of-rilide-data-theft.html",
+        "Date": "2023-08-03",
+        "Time": "20:03:00",
+        "Summary": "Cybersecurity researchers have discovered a new version of malware called\u00a0Rilide\u00a0that targets Chromium-based web browsers to steal sensitive data and steal cryptocurrency.\n\"It exhibits a higher level of sophistication through modular design, code obfuscation, adoption to the\u00a0Chrome Extension Manifest V3, and additional features such as the ability to exfiltrate stolen data to a Telegram channel"
+    },
+    {
+        "Title": "Hundreds of Citrix NetScaler ADC and Gateway Servers Hacked in Major Cyber Attack",
+        "Link": "https://thehackernews.com/2023/08/hundreds-of-citrix-netscaler-adc-and.html",
+        "Date": "2023-08-03",
+        "Time": "19:50:00",
+        "Summary": "Hundreds of Citrix NetScaler ADC and Gateway servers have been breached by malicious actors to deploy web shells, according to the Shadowserver Foundation.\nThe non-profit\u00a0said\u00a0the attacks take advantage of\u00a0CVE-2023-3519, a critical code injection vulnerability that could lead to unauthenticated remote code execution.\nThe flaw, patched by Citrix last month, carries a CVSS score of 9.8.\nThe"
+    },
+    {
+        "Title": "A Penetration Testing Buyer's Guide for IT Security Teams",
+        "Link": "https://thehackernews.com/2023/08/a-penetration-testing-buyers-guide-for.html",
+        "Date": "2023-08-03",
+        "Time": "18:17:00",
+        "Summary": "The frequency and complexity of cyber threats are constantly evolving. At the same time, organizations are now collecting sensitive data that, if compromised, could result in severe financial and reputational damage.\u00a0According to Cybersecurity Ventures, the cost of cybercrime is predicted to hit $8 trillion in 2023 and will grow to $10.5 trillion by 2025.\nThere is also increasing public and"
+    },
+    {
+        "Title": "Microsoft Flags Growing Cybersecurity Concerns for Major Sporting Events",
+        "Link": "https://thehackernews.com/2023/08/microsoft-flags-growing-cybersecurity.html",
+        "Date": "2023-08-03",
+        "Time": "15:31:00",
+        "Summary": "Microsoft is warning of the threat malicious cyber actors pose to stadium operations, warning that the cyber risk surface of live sporting events is \"rapidly expanding.\"\n\"Information on athletic performance, competitive advantage, and personal information is a lucrative target,\" the company said in a Cyber Signals report shared with The Hacker News. \"Sports teams, major league and global"
+    },
+    {
+        "Title": "\"Mysterious Team Bangladesh\" Targeting India with DDoS Attacks and Data Breaches",
+        "Link": "https://thehackernews.com/2023/08/mysterious-team-bangladesh-targeting.html",
+        "Date": "2023-08-03",
+        "Time": "14:50:00",
+        "Summary": "A hacktivist group known as\u00a0Mysterious Team Bangladesh\u00a0has been linked to over 750 distributed denial-of-service (DDoS) attacks and 78 website defacements since June 2022.\n\"The group most frequently attacks logistics, government, and financial sector organizations in India and Israel,\" Singapore-headquartered cybersecurity firm Group-IB said in a report shared with The Hacker News. \"The group is"
+    },
+    {
+        "Title": "Microsoft Exposes Russian Hackers' Sneaky Phishing Tactics via Microsoft Teams Chats",
+        "Link": "https://thehackernews.com/2023/08/microsoft-exposes-russian-hackers.html",
+        "Date": "2023-08-03",
+        "Time": "12:08:00",
+        "Summary": "Microsoft on Wednesday disclosed that it identified a set of highly targeted social engineering attacks mounted by a Russian nation-state threat actor using credential theft phishing lures sent as Microsoft Teams chats.\nThe tech giant attributed the attacks to a group it tracks as\u00a0Midnight Blizzard\u00a0(previously Nobelium). It's also called APT29, BlueBravo, Cozy Bear, Iron Hemlock, and The Dukes."
+    },
+    {
+        "Title": "Researchers Discover Bypass for Recently Patched Critical Ivanti EPMM Vulnerability",
+        "Link": "https://thehackernews.com/2023/08/researchers-discover-bypass-for.html",
+        "Date": "2023-08-03",
+        "Time": "09:36:00",
+        "Summary": "Cybersecurity researchers have discovered a bypass for a recently fixed actively exploited vulnerability in some versions of Ivanti Endpoint Manager Mobile (EPMM), prompting Ivanti to urge users to update to the latest version of the software.\nTracked as\u00a0CVE-2023-35082\u00a0(CVSS score: 10.0) and discovered by Rapid7, the issue \"allows unauthenticated attackers to access the API in older unsupported"
+    },
+    {
+        "Title": "Russian Cyber Adversary BlueCharlie Alters Infrastructure in Response to Disclosures",
+        "Link": "https://thehackernews.com/2023/08/russian-cyber-adversary-bluecharlie.html",
+        "Date": "2023-08-02",
+        "Time": "19:42:00",
+        "Summary": "A Russia-nexus adversary has been linked to 94 new domains starting March 2023, suggesting that the group is actively modifying its infrastructure in response to public disclosures about its activities.\nCybersecurity firm Recorded Future\u00a0linked the revamped infrastructure to a threat actor it tracks under the name\u00a0BlueCharlie, a hacking crew that's broadly known by the names Blue Callisto,"
+    },
+    {
+        "Title": "Phishers Exploit Salesforce's Email Services Zero-Day in Targeted Facebook Campaign",
+        "Link": "https://thehackernews.com/2023/08/phishers-exploit-salesforces-email.html",
+        "Date": "2023-08-02",
+        "Time": "18:25:00",
+        "Summary": "A sophisticated Facebook phishing campaign has been observed exploiting a zero-day flaw in Salesforce's email services, allowing threat actors to craft targeted phishing messages using the company's domain and infrastructure.\n\"Those phishing campaigns cleverly evade conventional detection methods by chaining the Salesforce vulnerability and legacy quirks in Facebook's Web Games platform,\""
+    },
+    {
+        "Title": "Industrial Control Systems Vulnerabilities Soar: Over One-Third Unpatched in 2023",
+        "Link": "https://thehackernews.com/2023/08/industrial-control-systems.html",
+        "Date": "2023-08-02",
+        "Time": "18:25:00",
+        "Summary": "About 34% of security vulnerabilities impacting industrial control systems (ICSs) that were reported in the first half of 2023 have no patch or remediation, registering a significant increase from 13% the previous year.\nAccording to data compiled by SynSaber, a total of 670 ICS product flaws were reported via the U.S. Cybersecurity and Infrastructure Security Agency (CISA) in the first half of"
+    },
+    {
+        "Title": "Top Industries Significantly Impacted by Illicit Telegram Networks",
+        "Link": "https://thehackernews.com/2023/08/top-industries-significantly-impacted.html",
+        "Date": "2023-08-02",
+        "Time": "17:22:00",
+        "Summary": "In recent years the rise of illicit activities conducted within online messaging platforms has become a growing concern for countless industries. One of the most notable platforms that has been host to many malicious actors and nefarious activities has been Telegram. Thanks to its accessibility, popularity, and user anonymity, Telegram has attracted a large number of threat actors driven by"
+    },
+    {
+        "Title": "Researchers Uncover AWS SSM Agent Misuse as a Covert Remote Access Trojan",
+        "Link": "https://thehackernews.com/2023/08/researchers-uncover-aws-ssm-agent.html",
+        "Date": "2023-08-02",
+        "Time": "17:20:00",
+        "Summary": "Cybersecurity researchers have discovered a new post-exploitation technique in Amazon Web Services (AWS) that allows the AWS Systems Manager Agent (SSM Agent) to be run as a remote access trojan on Windows and Linux environments\n\"The SSM agent, a legitimate tool used by admins to manage their instances, can be re-purposed by an attacker who has achieved high privilege access on an endpoint with"
+    },
+    {
+        "Title": "Iranian Company Cloudzy Accused of Aiding Cybercriminals and Nation-State Hackers",
+        "Link": "https://thehackernews.com/2023/08/iranian-company-cloudzy-accused-of.html",
+        "Date": "2023-08-02",
+        "Time": "13:01:00",
+        "Summary": "Services offered by an obscure Iranian company known as Cloudzy are being leveraged by multiple threat actors, including cybercrime groups and nation-state crews.\n\"Although Cloudzy is incorporated in the United States, it almost certainly operates out of Tehran, Iran \u2013 in possible violation of U.S. sanctions \u2013 under the direction of someone going by the name\u00a0Hassan Nozari,\" Halcyon\u00a0said\u00a0in a new"
+    },
+    {
+        "Title": "Norwegian Entities Targeted in Ongoing Attacks Exploiting Ivanti EPMM Vulnerability",
+        "Link": "https://thehackernews.com/2023/08/norwegian-entities-targeted-in-ongoing.html",
+        "Date": "2023-08-02",
+        "Time": "09:11:00",
+        "Summary": "Advanced persistent threat (APT) actors exploited a recently disclosed critical flaw impacting Ivanti Endpoint Manager Mobile (EPMM) as a zero-day since at least April 2023 in attacks directed against Norwegian entities, including a government network.\nThe disclosure comes as part of a new joint advisory released by the Cybersecurity and Infrastructure Security Agency (CISA) and the Norwegian"
+    },
+    {
+        "Title": "New NodeStealer Variant Targeting Facebook Business Accounts and Crypto Wallets",
+        "Link": "https://thehackernews.com/2023/08/new-nodestealer-targeting-facebook.html",
+        "Date": "2023-08-01",
+        "Time": "21:03:00",
+        "Summary": "Cybersecurity researchers have unearthed a Python variant of a stealer malware\u00a0NodeStealer\u00a0that's equipped to fully take over Facebook business accounts as well as siphon cryptocurrency.\nPalo Alto Networks Unit 42 said it detected the previously undocumented strain as part of a campaign that commenced in December 2022. There is no evidence to suggest that the cyber offensive is currently active."
+    },
+    {
+        "Title": "European Bank Customers Targeted in SpyNote Android Trojan Campaign",
+        "Link": "https://thehackernews.com/2023/08/european-bank-customers-targeted-in.html",
+        "Date": "2023-08-01",
+        "Time": "16:41:00",
+        "Summary": "Various European customers of different banks are being targeted by an Android banking trojan called\u00a0SpyNote\u00a0as part of an aggressive campaign detected in June and July 2023.\n\"The spyware is distributed through email phishing or smishing campaigns and the fraudulent activities are executed with a combination of remote access trojan (RAT) capabilities and vishing attack,\" Italian cybersecurity"
+    },
+    {
+        "Title": "What is Data Security Posture Management (DSPM)?",
+        "Link": "https://thehackernews.com/2023/08/what-is-data-security-posture.html",
+        "Date": "2023-08-01",
+        "Time": "15:45:00",
+        "Summary": "Data Security Posture Management is an approach to securing cloud data by ensuring that sensitive data always has the correct security posture - regardless of where it's been duplicated or moved to.\nSo, what is DSPM? Here's a quick example:\nLet's say you've built an excellent\u00a0security posture\u00a0for your cloud data. For the sake of this example, your data is in production, it's protected behind a"
+    },
+    {
+        "Title": "Researchers Expose Space Pirates' Cyber Campaign Across Russia and Serbia",
+        "Link": "https://thehackernews.com/2023/08/researchers-expose-space-pirate-cyber.html",
+        "Date": "2023-08-01",
+        "Time": "15:27:00",
+        "Summary": "The threat actor known as\u00a0Space Pirates\u00a0has been linked to attacks against at least 16 organizations in Russia and Serbia over the past year by employing novel tactics and adding new cyber weapons to its arsenal.\n\"The cybercriminals' main goals are still espionage and theft of confidential information, but the group has expanded its interests and the geography of its attacks,\" Positive"
+    },
+    {
+        "Title": "China's APT31 Suspected in Attacks on Air-Gapped Systems in Eastern Europe",
+        "Link": "https://thehackernews.com/2023/08/chinas-apt31-suspected-in-attacks-on.html",
+        "Date": "2023-08-01",
+        "Time": "14:31:00",
+        "Summary": "A nation-state actor with links to China is suspected of being behind a series of attacks against industrial organizations in Eastern Europe that took place last year to siphon data stored on air-gapped systems.\nCybersecurity company Kaspersky attributed the intrusions with medium to high confidence to a hacking crew called\u00a0APT31, which is also tracked under the monikers Bronze Vinewood,"
+    },
+    {
+        "Title": "Cybercriminals Renting WikiLoader to Target Italian Organizations with Banking Trojan",
+        "Link": "https://thehackernews.com/2023/08/cybercriminals-renting-wikiloader-to.html",
+        "Date": "2023-08-01",
+        "Time": "09:50:00",
+        "Summary": "Organizations in Italy are the target of a new phishing campaign that leverages a new strain of malware called\u00a0WikiLoader\u00a0with an ultimate aim to install a banking trojan, stealer, and spyware referred to as\u00a0Ursnif\u00a0(aka Gozi).\n\"It is a sophisticated downloader with the objective of installing a second malware payload,\" Proofpoint\u00a0said\u00a0in a technical report. \"The malware uses multiple mechanisms"
+    },
+    {
+        "Title": "New P2PInfect Worm Targets Redis Servers with Undocumented Breach Methods",
+        "Link": "https://thehackernews.com/2023/07/new-p2pinfect-worm-targets-redis.html",
+        "Date": "2023-07-31",
+        "Time": "19:08:00",
+        "Summary": "The P2PInfect peer-to-peer (P2) worm has been observed employing previously undocumented initial access methods to breach susceptible Redis servers and rope them into a botnet.\n\"The malware compromises exposed instances of the Redis data store by exploiting the replication feature,\" Cado Security researchers Nate Bill and Matt Muir\u00a0said\u00a0in a report shared with The Hacker News.\n\"A common attack"
+    },
+    {
+        "Title": "Patchwork Hackers Target Chinese Research Organizations Using EyeShell Backdoor",
+        "Link": "https://thehackernews.com/2023/07/patchwork-hackers-target-chinese.html",
+        "Date": "2023-07-31",
+        "Time": "18:00:00",
+        "Summary": "Threat actors associated with the hacking crew known as Patchwork have been spotted targeting universities and research organizations in China as part of a recently observed campaign.\nThe activity, according to\u00a0KnownSec 404 Team, entailed the use of a backdoor codenamed\u00a0EyeShell.\nPatchwork, also known by the names Operation Hangover and Zinc Emerson, is suspected to be a threat group that"
+    },
+    {
+        "Title": "Webinar: Riding the vCISO Wave: How to Provide vCISO Services",
+        "Link": "https://thehackernews.com/2023/07/webinar-riding-vciso-wave-how-to.html",
+        "Date": "2023-07-31",
+        "Time": "16:17:00",
+        "Summary": "Demand for Virtual CISO services is soaring. According to Gartner, the use of vCISO services among small and mid-size businesses and non-regulated enterprises was expected to grow by a whopping 1900% in just one year, from only 1% in 2021 to 20% in 2022!\nOffering vCISO services can be especially attractive for MSPs and MSSPs. By addressing their customers\u2019 needs for proactive cyber resilience,"
+    },
+    {
+        "Title": "AVRecon Botnet Leveraging Compromised Routers to Fuel Illegal Proxy Service",
+        "Link": "https://thehackernews.com/2023/07/avrecon-botnet-leveraging-compromised.html",
+        "Date": "2023-07-31",
+        "Time": "14:55:00",
+        "Summary": "More details have emerged about a botnet called\u00a0AVRecon, which has been observed making use of compromised small office/home office (SOHO) routers as part of a multi-year campaign active since at least May 2021.\nAVRecon was\u00a0first disclosed\u00a0by Lumen Black Lotus Labs earlier this month as malware capable of executing additional commands and stealing victim's bandwidth for what appears to be an"
+    },
+    {
+        "Title": "Fruity Trojan Uses Deceptive Software Installers to Spread Remcos RAT",
+        "Link": "https://thehackernews.com/2023/07/fruity-trojan-uses-deceptive-software.html",
+        "Date": "2023-07-31",
+        "Time": "14:08:00",
+        "Summary": "Threat actors are creating fake websites hosting trojanized software installers to trick unsuspecting users into downloading a downloader malware called Fruity with the goal of installing remote trojans tools like Remcos RAT.\n\"Among the software in question are various instruments for fine-tuning CPUs, graphic cards, and BIOS; PC hardware-monitoring tools; and some other apps,\" cybersecurity"
+    },
+    {
+        "Title": "Multiple Flaws Found in Ninja Forms Plugin Leave 800,000 Sites Vulnerable",
+        "Link": "https://thehackernews.com/2023/07/multiple-flaws-found-in-ninja-forms.html",
+        "Date": "2023-07-31",
+        "Time": "12:12:00",
+        "Summary": "Multiple security vulnerabilities have been disclosed in the Ninja Forms plugin for WordPress that could be exploited by threat actors to escalate privileges and steal sensitive data.\nThe flaws, tracked as CVE-2023-37979, CVE-2023-38386, and CVE-2023-38393, impact versions 3.6.25 and below, Patchstack\u00a0said\u00a0in a report last week. Ninja Forms is installed on over 800,000 sites.\nA brief description"
     },
     {
         "Title": "New Android Malware CherryBlos Utilizing OCR to Steal Sensitive Data",
@@ -915,13 +1139,6 @@
         "Date": "2023-07-29",
         "Time": "13:40:00",
         "Summary": "A new Android malware strain called\u00a0CherryBlos\u00a0has been observed making use of optical character recognition (OCR) techniques to gather sensitive data stored in pictures.\nCherryBlos, per\u00a0Trend Micro, is distributed via bogus posts on social media platforms and comes with capabilities to steal cryptocurrency wallet-related credentials and act as a\u00a0clipper\u00a0to substitute wallet addresses when a"
-    },
-    {
-        "Title": "RFP Template for Browser Security",
-        "Link": "https://thehackernews.com/2023/07/rfp-template-for-browser-security.html",
-        "Date": "2023-07-29",
-        "Time": "11:04:00",
-        "Summary": "Increasing cyber threats and attacks have made protecting organizational data a paramount concern for businesses of all sizes. A group of experts have recognized the pressing need for comprehensive browser security solutions and collaborated to develop \"The Definitive\u00a0Browser Security RFP Template.\" This resource helps streamline the process of evaluating and procuring browser security platforms"
     },
     {
         "Title": "Apple Sets New Rules for Developers to Prevent Fingerprinting and Data Misuse",
@@ -1043,221 +1260,39 @@
         "Summary": "A deeper analysis of a recently discovered malware called\u00a0Decoy Dog\u00a0has revealed that it's a significant upgrade over the\u00a0Pupy RAT, an open-source remote access trojan it's modeled on.\n\"Decoy Dog has a full suite of powerful, previously unknown capabilities \u2013 including the ability to move victims to another controller, allowing them to maintain communication with compromised machines and remain"
     },
     {
-        "Title": "The Alarming Rise of Infostealers: How to Detect this Silent Threat",
-        "Link": "https://thehackernews.com/2023/07/the-alarming-rise-of-infostealers-how.html",
-        "Date": "2023-07-26",
-        "Time": "16:23:00",
-        "Summary": "A new study conducted by Uptycs has uncovered a stark increase in the distribution of information stealing (a.k.a. infostealer or stealer) malware. Incidents have more than doubled in Q1 2023, indicating an alarming trend that threatens global organizations.\nAccording to the new Uptycs' whitepaper,\u00a0Stealers are Organization Killers, a variety of new info stealers have emerged this year, preying"
+        "Title": "\u201cCrocodile of Wall Street\u201d and her husband plead guilty to giant-sized cryptocrimes",
+        "Link": "https://nakedsecurity.sophos.com/2023/08/04/crocodile-of-wall-street-and-her-husband-plead-guilty-to-giant-sized-cryptocrimes/",
+        "Date": "2023-08-04",
+        "Time": "16:52:12",
+        "Summary": "Sentences still to be decided, but she could get up to 10 years and he could get as many as 20."
     },
     {
-        "Title": "Fenix Cybercrime Group Poses as Tax Authorities to Target Latin American Users",
-        "Link": "https://thehackernews.com/2023/07/fenix-cybercrime-group-poses-as-tax.html",
-        "Date": "2023-07-26",
-        "Time": "16:22:00",
-        "Summary": "Tax-paying individuals in Mexico and Chile have been targeted by a Mexico-based cybercrime group that goes by the name\u00a0Fenix\u00a0to breach targeted networks and steal valuable data.\nA key hallmark of the operation entails cloning official portals of the Servicio de Administraci\u00f3n Tributaria (SAT) in Mexico and the Servicio de Impuestos Internos (SII) in Chile and redirecting potential victims to"
+        "Title": "S3 Ep146: Tell us about that breach! (If you want to.)",
+        "Link": "https://nakedsecurity.sophos.com/2023/08/03/s3-ep146-tell-us-about-that-breach-if-you-want-to/",
+        "Date": "2023-08-03",
+        "Time": "17:56:25",
+        "Summary": "Serious security stories explained clearly in plain English - listen now. (Full transcript available.)"
     },
     {
-        "Title": "New AI  Tool 'FraudGPT' Emerges, Tailored for Sophisticated Attacks",
-        "Link": "https://thehackernews.com/2023/07/new-ai-tool-fraudgpt-emerges-tailored.html",
-        "Date": "2023-07-26",
-        "Time": "15:32:00",
-        "Summary": "Following the footsteps of\u00a0WormGPT, threat actors are advertising yet another cybercrime generative artificial intelligence (AI) tool dubbed\u00a0FraudGPT\u00a0on various dark web marketplaces and Telegram channels.\n\"This is an AI bot, exclusively targeted for offensive purposes, such as crafting spear phishing emails, creating cracking tools, carding, etc.,\" Netenrich security researcher Rakesh Krishnan"
+        "Title": "Performance and security clash yet again in \u201cCollide+Power\u201d attack",
+        "Link": "https://nakedsecurity.sophos.com/2023/08/03/performance-and-security-clash-yet-again-in-collidepower-attack/",
+        "Date": "2023-08-02",
+        "Time": "23:36:23",
+        "Summary": "It's a real vulnerability, but the data leakage rate can be as low as... let's just say that an IMAX-quality copy of the new \"Oppenheimer\" movie could take you 4 billion years to exfiltrate."
     },
     {
-        "Title": "Rust-based Realst Infostealer Targeting Apple macOS Users' Cryptocurrency Wallets",
-        "Link": "https://thehackernews.com/2023/07/rust-based-realst-infostealer-targeting.html",
-        "Date": "2023-07-26",
-        "Time": "12:38:00",
-        "Summary": "A new malware family called\u00a0Realst\u00a0has become the latest to target Apple macOS systems, with a third of the samples already designed to infect macOS 14 Sonoma, the upcoming major release of the operating system.\nWritten in the Rust programming language, the malware is distributed in the form of bogus blockchain games and is capable of \"emptying crypto wallets and stealing stored password and"
+        "Title": "Firefox fixes a flurry of flaws in the first of two releases this month",
+        "Link": "https://nakedsecurity.sophos.com/2023/08/01/firefox-fixes-a-flurry-of-flaws-in-the-first-of-two-releases-this-month/",
+        "Date": "2023-08-01",
+        "Time": "19:28:38",
+        "Summary": "No zero-days, but some interesting patches with their very own \"teachable moments\"."
     },
     {
-        "Title": "Critical MikroTik RouterOS Vulnerability Exposes Over Half a Million Devices to Hacking",
-        "Link": "https://thehackernews.com/2023/07/critical-mikrotik-routeros.html",
-        "Date": "2023-07-26",
-        "Time": "10:32:00",
-        "Summary": "A severe privilege escalation issue impacting MikroTik RouterOS could be weaponized by remote malicious actors to execute arbitrary code and seize full control of vulnerable devices.\nCataloged as\u00a0CVE-2023-30799\u00a0(CVSS score: 9.1), the shortcoming is expected to put approximately 500,000 and 900,000 RouterOS systems at risk of exploitation via their web and/or Winbox interfaces, respectively,"
-    },
-    {
-        "Title": "North Korean Nation-State Actors Exposed in JumpCloud Hack After OPSEC Blunder",
-        "Link": "https://thehackernews.com/2023/07/north-korean-nation-state-actors.html",
-        "Date": "2023-07-25",
-        "Time": "20:16:00",
-        "Summary": "North Korean nation-state actors affiliated with the Reconnaissance General Bureau (RGB) have been attributed to the\u00a0JumpCloud hack\u00a0following an operational security (OPSEC) blunder that exposed their actual IP address.\nGoogle-owned threat intelligence firm Mandiant attributed the activity to a threat actor it tracks under the name UNC4899, which likely shares overlaps with clusters already"
-    },
-    {
-        "Title": "Casbaneiro Banking Malware Goes Under the Radar with UAC Bypass Technique",
-        "Link": "https://thehackernews.com/2023/07/casbaneiro-banking-malware-goes-under.html",
-        "Date": "2023-07-25",
-        "Time": "17:40:00",
-        "Summary": "The financially motivated threat actors behind the\u00a0Casbaneiro\u00a0banking malware family have been observed making use of a User Account Control (UAC) bypass technique to gain full administrative privileges on a machine, a sign that the threat actor is evolving their tactics to avoid detection and execute malicious code on compromised assets.\n\"They are still heavily focused on Latin American"
-    },
-    {
-        "Title": "macOS Under Attack: Examining the Growing Threat and User Perspectives",
-        "Link": "https://thehackernews.com/2023/07/macos-under-attack-examining-growing.html",
-        "Date": "2023-07-25",
-        "Time": "16:54:00",
-        "Summary": "As the number of people using macOS keeps going up, so does the desire of hackers to take advantage of flaws in Apple's operating system.\u00a0\nWhat Are the Rising Threats to macOS?\nThere is a common misconception among macOS fans that Apple devices are immune to hacking and malware infection. However, users have been facing more and more dangers recently. Inventive attackers are specifically"
-    },
-    {
-        "Title": "TETRA:BURST \u2014 5 New Vulnerabilities Exposed in Widely Used Radio Communication System",
-        "Link": "https://thehackernews.com/2023/07/tetraburst-5-new-vulnerabilities.html",
-        "Date": "2023-07-25",
-        "Time": "15:58:00",
-        "Summary": "A set of five security vulnerabilities have been disclosed in the Terrestrial Trunked Radio (TETRA) standard for radio communication used widely by government entities and critical infrastructure sectors, including what's believed to be an intentional backdoor that could have potentially exposed sensitive information.\nThe issues, discovered by Midnight Blue in 2021 and held back until now, have"
-    },
-    {
-        "Title": "How MDR Helps Solve the Cybersecurity Talent Gap",
-        "Link": "https://thehackernews.com/2023/07/how-mdr-helps-solve-cybersecurity.html",
-        "Date": "2023-07-25",
-        "Time": "15:48:00",
-        "Summary": "How do you overcome today's talent gap in cybersecurity? This is a crucial issue \u2014 particularly when you find executive leadership or the board asking pointed questions about your security team's ability to defend the organization against new and current threats.\nThis is why many security leaders find themselves turning to managed security services like MDR (managed detection and response),"
-    },
-    {
-        "Title": "Zenbleed: New Flaw in AMD Zen 2 Processors Puts Encryption Keys and Passwords at Risk",
-        "Link": "https://thehackernews.com/2023/07/zenbleed-new-flaw-in-amd-zen-2.html",
-        "Date": "2023-07-25",
-        "Time": "15:33:00",
-        "Summary": "A new security vulnerability has been discovered in AMD's Zen 2 architecture-based processors that could be exploited to extract sensitive data such as encryption keys and passwords.\nDiscovered by Google Project Zero researcher Tavis Ormandy, the flaw \u2013 codenamed\u00a0Zenbleed\u00a0and tracked as\u00a0CVE-2023-20593\u00a0(CVSS score: 6.5) \u2013 allows data exfiltration at the rate of 30 kb per core, per second.\nThe"
-    },
-    {
-        "Title": "Atlassian Releases Patches for Critical Flaws in Confluence and Bamboo",
-        "Link": "https://thehackernews.com/2023/07/atlassian-releases-patches-for-critical.html",
-        "Date": "2023-07-25",
-        "Time": "09:47:00",
-        "Summary": "Atlassian has\u00a0released\u00a0updates to address three security flaws impacting its Confluence Server, Data Center, and Bamboo Data Center products that, if successfully exploited, could result in remote code execution on susceptible systems.\nThe list of the flaws is below -\n\nCVE-2023-22505\u00a0(CVSS score: 8.0) - RCE (Remote Code Execution) in Confluence Data Center and Server (Fixed in versions 8.3.2 and"
-    },
-    {
-        "Title": "Ivanti Releases Urgent Patch for EPMM Zero-Day Vulnerability Under Active Exploitation",
-        "Link": "https://thehackernews.com/2023/07/ivanti-releases-urgent-patch-for-epmm.html",
-        "Date": "2023-07-25",
-        "Time": "09:21:00",
-        "Summary": "Ivanti is warning users to update their Endpoint Manager Mobile (EPMM) mobile device management software (formerly MobileIron Core) to the latest version that fixes an actively exploited zero-day vulnerability.\nDubbed\u00a0CVE-2023-35078, the issue has been described as a remote unauthenticated API access vulnerability that impacts currently supported version 11.4 releases 11.10, 11.9, and 11.8 as"
-    },
-    {
-        "Title": "Apple Rolls Out Urgent Patches for Zero-Day Flaws Impacting iPhones, iPads and Macs",
-        "Link": "https://thehackernews.com/2023/07/apple-rolls-out-urgent-patches-for-zero.html",
-        "Date": "2023-07-25",
-        "Time": "09:06:00",
-        "Summary": "Apple has\u00a0rolled out security updates\u00a0to iOS, iPadOS, macOS, tvOS, watchOS, and Safari to address several security vulnerabilities, including one actively exploited zero-day bug in the wild.\nTracked as\u00a0CVE-2023-38606, the shortcoming resides in the kernel and permits a malicious app to modify sensitive kernel state potentially. The company said it was addressed with improved state management.\n\""
-    },
-    {
-        "Title": "Critical Zero-Days in Atera Windows Installers Expose Users to Privilege Escalation Attacks",
-        "Link": "https://thehackernews.com/2023/07/critical-zero-days-in-atera-windows.html",
-        "Date": "2023-07-24",
-        "Time": "18:31:00",
-        "Summary": "Zero-day vulnerabilities in Windows Installers for the Atera remote monitoring and management software could act as a springboard to launch privilege escalation attacks.\nThe flaws, discovered by Mandiant on February 28, 2023, have been assigned the identifiers\u00a0CVE-2023-26077\u00a0and\u00a0CVE-2023-26078, with the issues remediated in versions 1.8.3.7 and 1.8.4.9 released by Atera on April 17, 2023, and"
-    },
-    {
-        "Title": "Google Messages Getting Cross-Platform End-to-End Encryption with MLS Protocol",
-        "Link": "https://thehackernews.com/2023/07/google-messages-getting-cross-platform.html",
-        "Date": "2023-07-24",
-        "Time": "18:14:00",
-        "Summary": "Google has announced that it intends to add support for Message Layer Security (MLS) to its Messages service for Android and open source an implementation of the specification.\n\"Most modern consumer messaging platforms (including Google Messages) support end-to-end encryption, but users today are limited to communicating with contacts who use the same platform,\" Giles Hogben, privacy engineering"
-    },
-    {
-        "Title": "How to Protect Patients and Their Privacy in Your SaaS Apps",
-        "Link": "https://thehackernews.com/2023/07/how-to-protect-patients-and-their.html",
-        "Date": "2023-07-24",
-        "Time": "17:40:00",
-        "Summary": "The healthcare industry is under a constant barrage of cyberattacks. It has traditionally been one of the most frequently targeted industries, and things haven\u2019t changed in 2023. The U.S. Government\u2019s Office for Civil Rights reported\u00a0145 data breaches\u00a0in the United States during the first quarter of this year. That follows 707 incidents a year ago, during which over 50 million records were"
-    },
-    {
-        "Title": "New OpenSSH Vulnerability Exposes Linux Systems to Remote Command Injection",
-        "Link": "https://thehackernews.com/2023/07/new-openssh-vulnerability-exposes-linux.html",
-        "Date": "2023-07-24",
-        "Time": "14:40:00",
-        "Summary": "Details have emerged about a now-patched flaw in OpenSSH that could be potentially exploited to run arbitrary commands remotely on compromised hosts under specific conditions.\n\"This vulnerability allows a remote attacker to potentially execute arbitrary commands on vulnerable OpenSSH's forwarded ssh-agent,\" Saeed Abbasi, manager of vulnerability research at Qualys,\u00a0said\u00a0in an analysis last week."
-    },
-    {
-        "Title": "Banking Sector Targeted in Open-Source Software Supply Chain Attacks",
-        "Link": "https://thehackernews.com/2023/07/banking-sector-targeted-in-open-source.html",
-        "Date": "2023-07-24",
-        "Time": "12:54:00",
-        "Summary": "Cybersecurity researchers said they have discovered what they say is the first open-source software supply chain attacks specifically targeting the banking sector.\n\"These attacks showcased advanced techniques, including targeting specific components in web assets of the victim bank by attaching malicious functionalities to it,\" Checkmarx\u00a0said\u00a0in a report published last week.\n\"The attackers"
-    },
-    {
-        "Title": "Apple Threatens to Pull iMessage and FaceTime from U.K. Amid Surveillance Demands",
-        "Link": "https://thehackernews.com/2023/07/apple-threatens-to-pull-imessage-and.html",
-        "Date": "2023-07-22",
-        "Time": "11:06:00",
-        "Summary": "Apple has warned that it would rather stop offering iMessage and FaceTime services in the U.K. than bowing down to government pressure in response to new proposals that seek to expand digital surveillance powers available to state intelligence agencies.\nThe development, first\u00a0reported\u00a0by BBC News, makes the iPhone maker the latest to join the chorus of voices protesting against forthcoming"
-    },
-    {
-        "Title": "Azure AD Token Forging Technique in Microsoft Attack Extends Beyond Outlook, Wiz Reports",
-        "Link": "https://thehackernews.com/2023/07/azure-ad-token-forging-technique-in.html",
-        "Date": "2023-07-21",
-        "Time": "20:44:00",
-        "Summary": "The recent attack against\u00a0Microsoft's email infrastructure\u00a0by a Chinese nation-state actor referred to as Storm-0558 is said to have a broader scope than previously thought.\nAccording to cloud security company Wiz, the inactive Microsoft account (MSA) consumer signing key used to forge Azure Active Directory (Azure AD or AAD) tokens to gain illicit access to Outlook Web Access (OWA) and"
-    },
-    {
-        "Title": "HotRat: New Variant of AsyncRAT Malware Spreading Through Pirated Software",
-        "Link": "https://thehackernews.com/2023/07/hotrat-new-variant-of-asyncrat-malware.html",
-        "Date": "2023-07-21",
-        "Time": "20:35:00",
-        "Summary": "A new variant of\u00a0AsyncRAT\u00a0malware dubbed\u00a0HotRat\u00a0is being distributed via free, pirated versions of popular software and utilities such as video games, image and sound editing software, and Microsoft Office.\n\"HotRat malware equips attackers with a wide array of capabilities, such as stealing login credentials, cryptocurrency wallets, screen capturing, keylogging, installing more malware, and"
-    },
-    {
-        "Title": "Sophisticated BundleBot Malware Disguised as Google AI Chatbot and Utilities",
-        "Link": "https://thehackernews.com/2023/07/sophisticated-bundlebot-malware.html",
-        "Date": "2023-07-21",
-        "Time": "17:40:00",
-        "Summary": "A new malware strain known as BundleBot has been stealthily operating under the radar by taking advantage of\u00a0.NET single-file deployment techniques, enabling threat actors to capture sensitive information from compromised hosts.\n\"BundleBot is abusing the dotnet bundle (single-file), self-contained format that results in very low or no static detection at all,\" Check Point\u00a0said\u00a0in a report"
-    },
-    {
-        "Title": "Local Governments Targeted for Ransomware \u2013 How to Prevent Falling Victim",
-        "Link": "https://thehackernews.com/2023/07/local-governments-targeted-for.html",
-        "Date": "2023-07-21",
-        "Time": "17:11:00",
-        "Summary": "Regardless of the country, local government is essential in most citizens' lives. It provides many day-to-day services and handles various issues. Therefore, their effects can be far-reaching and deeply felt when security failures occur.\nIn early 2023, Oakland, California,\u00a0fell victim to a ransomware attack. Although city officials have not disclosed how the attack occurred, experts suspect a"
-    },
-    {
-        "Title": "DDoS Botnets Hijacking Zyxel Devices to Launch Devastating Attacks",
-        "Link": "https://thehackernews.com/2023/07/ddos-botnets-hijacking-zyxel-devices-to.html",
-        "Date": "2023-07-21",
-        "Time": "14:33:00",
-        "Summary": "Several distributed denial-of-service (DDoS) botnets have been observed exploiting a critical flaw in Zyxel devices that came to light in April 2023 to gain remote control of vulnerable systems.\n\"Through the capture of exploit traffic, the attacker's IP address was identified, and it was determined that the attacks were occurring in multiple regions, including Central America, North America,"
-    },
-    {
-        "Title": "Citrix NetScaler ADC and Gateway Devices Under Attack: CISA Urges Immediate Action",
-        "Link": "https://thehackernews.com/2023/07/citrix-netscaler-adc-and-gateway.html",
-        "Date": "2023-07-21",
-        "Time": "10:56:00",
-        "Summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) issued an advisory on Thursday warning that the newly disclosed critical security flaw in Citrix NetScaler Application Delivery Controller (ADC) and Gateway devices is being abused to drop web shells on vulnerable systems.\n\"In June 2023, threat actors exploited this vulnerability as a zero-day to drop a web shell on a critical"
-    },
-    {
-        "Title": "Critical Flaws in AMI MegaRAC BMC Software Expose Servers to Remote Attacks",
-        "Link": "https://thehackernews.com/2023/07/critical-flaws-in-ami-megarac-bmc.html",
-        "Date": "2023-07-20",
-        "Time": "22:26:00",
-        "Summary": "Two more security flaws have been disclosed in AMI MegaRAC Baseboard Management Controller (BMC) software that, if successfully exploited, could allow threat actors to remotely commandeer vulnerable servers and deploy malware.\n\"These new vulnerabilities range in severity from High to Critical, including unauthenticated remote code execution and unauthorized device access with superuser"
-    },
-    {
-        "Title": "Mallox Ransomware Exploits Weak MS-SQL Servers to Breach Networks",
-        "Link": "https://thehackernews.com/2023/07/mallox-ransomware-exploits-weak-ms-sql.html",
-        "Date": "2023-07-20",
-        "Time": "22:26:00",
-        "Summary": "Mallox ransomware activities in 2023 have witnessed a 174% increase when compared to the previous year, new findings from Palo Alto Networks Unit 42 reveal.\n\"Mallox ransomware, like many other ransomware threat actors, follows the double extortion trend: stealing data before encrypting an organization's files, and then threatening to publish the stolen data on a leak site as leverage to convince"
-    },
-    {
-        "Title": "Apache OpenMeetings Web Conferencing Tool Exposed to Critical Vulnerabilities",
-        "Link": "https://thehackernews.com/2023/07/apache-openmeetings-web-conferencing.html",
-        "Date": "2023-07-20",
-        "Time": "21:26:00",
-        "Summary": "Multiple security flaws have been disclosed in Apache OpenMeetings, a web conferencing solution, that could be potentially exploited by malicious actors to seize control of admin accounts and run malicious code on susceptible servers.\n\"Attackers can bring the application into an unexpected state, which allows them to take over any user account, including the admin account,\" Sonar vulnerability"
-    },
-    {
-        "Title": "North Korean State-Sponsored Hackers Suspected in JumpCloud Supply Chain Attack",
-        "Link": "https://thehackernews.com/2023/07/north-korean-state-sponsored-hackers.html",
-        "Date": "2023-07-20",
-        "Time": "19:00:00",
-        "Summary": "An analysis of the indicators of compromise (IoCs) associated with the JumpCloud hack has uncovered evidence pointing to the involvement of North Korean state-sponsored groups, in a style that's reminiscent of the\u00a0supply chain attack targeting 3CX.\nThe findings come from SentinelOne, which\u00a0mapped out\u00a0the infrastructure pertaining to the intrusion to uncover underlying patterns. It's worth noting"
-    },
-    {
-        "Title": "A Few More Reasons Why RDP is Insecure (Surprise!)",
-        "Link": "https://thehackernews.com/2023/07/a-few-more-reasons-why-rdp-is-insecure.html",
-        "Date": "2023-07-20",
-        "Time": "16:18:00",
-        "Summary": "If it seems like Remote Desktop Protocol (RDP) has been around forever, it's because it has (at least compared to the many technologies that rise and fall within just a few years.) The initial version, known as \"Remote Desktop Protocol 4.0,\" was released in 1996 as part of the Windows NT 4.0 Terminal Server edition and allowed users to remotely access and control Windows-based computers over a"
+        "Title": "SEC demands four-day disclosure limit for cybersecurity breaches",
+        "Link": "https://nakedsecurity.sophos.com/2023/07/31/sec-demands-four-day-disclosure-limit-for-cybersecurity-breaches/",
+        "Date": "2023-07-31",
+        "Time": "18:57:27",
+        "Summary": "When is a ransomware attack a reportable matter? And how long have you got to decide?"
     },
     {
         "Title": "S3 Ep145: Bugs With Impressive Names!",
@@ -1293,40 +1328,5 @@
         "Date": "2023-07-20",
         "Time": "20:58:03",
         "Summary": "Latest episode - check it out now!"
-    },
-    {
-        "Title": "Google Virus Total leaks list of spooky email addresses",
-        "Link": "https://nakedsecurity.sophos.com/2023/07/19/google-virus-total-leaks-list-of-spooky-email-addresses/",
-        "Date": "2023-07-19",
-        "Time": "19:16:29",
-        "Summary": "Careful with that file, Eugene!"
-    },
-    {
-        "Title": "Microsoft hit by Storm season \u2013 a tale of two semi-zero days",
-        "Link": "https://nakedsecurity.sophos.com/2023/07/18/microsoft-hit-by-storm-season-a-tale-of-two-semi-zero-days/",
-        "Date": "2023-07-18",
-        "Time": "20:59:18",
-        "Summary": "The first compromise didn't get the crooks as far as they wanted, so they found a second one that did..."
-    },
-    {
-        "Title": "Zimbra Collaboration Suite warning: Patch this 0-day right now (by hand)!",
-        "Link": "https://nakedsecurity.sophos.com/2023/07/14/zimbra-collaboration-suite-warning-patch-this-0-day-right-now-by-hand/",
-        "Date": "2023-07-14",
-        "Time": "19:58:13",
-        "Summary": "Zimbra didn't actually say, \"Do not delay/Do it today,\" but they did say, \"We kindly request your cooperation to apply the fix manually.\""
-    },
-    {
-        "Title": "S3 Ep143: Supercookie surveillance shenanigans",
-        "Link": "https://nakedsecurity.sophos.com/2023/07/13/s3-ep143-supercookie-surveillance-shenanigans/",
-        "Date": "2023-07-13",
-        "Time": "18:48:00",
-        "Summary": "Latest episode - listen now! (Full transcript inside.)"
-    },
-    {
-        "Title": "Microsoft patches four zero-days, finally takes action against crimeware kernel drivers",
-        "Link": "https://nakedsecurity.sophos.com/2023/07/12/microsoft-patches-four-zero-days-finally-takes-action-against-crimeware-kernel-drivers/",
-        "Date": "2023-07-12",
-        "Time": "20:57:00",
-        "Summary": "Here's a brief reminder to do two things. The first is to patch. The second is to read up why it's a good idea to patch..."
     }
 ]
