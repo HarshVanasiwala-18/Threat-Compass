@@ -6,4 +6,4 @@ datetime
 csv
 sys
 pyoti
-click
+pyfiglet
