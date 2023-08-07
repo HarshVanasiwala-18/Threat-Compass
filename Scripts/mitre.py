@@ -150,7 +150,7 @@ def scrape_mitre():
         print("Exception:", e)
 
 
-if __name__ == "__main__":
+def main():
     scrape_mitre()
     scrape_software()
     scrape_group()

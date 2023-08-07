@@ -135,10 +135,13 @@ def cve_scraper():
 
 def main():
     try:
+        print("Scraping Cyber news...")
         for news in news_provider:
             news_scraper(news)
         try:
+            print("Scraping CVEs...")
             cve_scraper()
+            print("Scraping completed.")
         except Exception as e:
             print("Exception: ", e)
     except Exception as e:
@@ -159,5 +162,3 @@ def main():
         json.dump(cve_data, file, indent=4)
 
 
-if __name__ == "__main__":
-    main()

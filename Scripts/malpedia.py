@@ -175,7 +175,6 @@ def scrape_lib():
             else:
                 if response.status_code == 404:
                     if "Page not Found" in soup.text:
-                        print(f"\rScraping completed")
                         break
         except Exception as e:
             print("Exception:", e)
@@ -193,7 +192,8 @@ def scrape_lib():
         json.dump(data, file, indent=4)
 
 
-if __name__ == "__main__":
+def main():
     scrape_malware_family()
     scrape_threat_actor()
     scrape_lib()
+    print("Scraping completed...")
