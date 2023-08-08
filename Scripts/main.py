@@ -1,12 +1,9 @@
+import pyfiglet
+import os
 import CyberNews
 import Malpedia
 import MITRE
-import ThreatProfiling
-import YARAandArticle
-import IndicatorsOfCompromises
 import LatestThreatData
-import pyfiglet
-import os
 
 directory = "CTI DB"
 try:
@@ -31,6 +28,7 @@ description()
 print("Welcome to ThreatCompass! Please select an option below: ")
 print("-"*200)
 scarpe_option = input("Are you trying it for first time! Please enter Y or N to get started: ")
+
 if scarpe_option == "Y" or scarpe_option == "y":
     print("Please wait while we scrape the data for you!")
     CyberNews.main()
@@ -45,24 +43,35 @@ elif scarpe_option == "N" or scarpe_option == "n":
     else:
         pass
 
-print("-"*200)
-print("Please select an option below: ")
-print("1. Threat Profiling")
-print("2. Latest Threat Data")
-print("3. Indicators of Compromise")
-print("4. YARA and Article")
-print("5. Exit")
-input_option = input("Please enter your option: ")
-if input_option == "1":
-    ThreatProfiling.main()
-elif input_option == "2":
-    LatestThreatData.main()
-elif input_option == "3":
-    IndicatorsOfCompromises.main()
-elif input_option == "4":
-    YARAandArticle.main()
-elif input_option == "5":
-    print("Thank you for using ThreatCompass!")
-    print("Exiting...")
-    print("-"*200)
-    exit()
+import ThreatProfiling
+import YARAandArticle
+import IndicatorsOfCompromises
+
+while True:
+    try:
+        print("-"*200)
+        print("Please select an option below: ")
+        print("1. Threat Profiling")
+        print("2. Latest Threat Data")
+        print("3. Indicators of Compromise")
+        print("4. YARA Rules and Articles")
+        print("5. Exit")
+        input_option = input("Please enter your option: ")
+        if input_option == "1":
+            ThreatProfiling.main()
+        elif input_option == "2":
+            LatestThreatData.main()
+        elif input_option == "3":
+            IndicatorsOfCompromises.main()
+        elif input_option == "4":
+            YARAandArticle.main()
+        elif input_option == "5":
+            print("Thank you for using ThreatCompass!")
+            print("Exiting...")
+            print("-"*200)
+            exit()
+    except Exception as e:
+        print("Exception: ", e)
+        print("Exiting...")
+        print("-"*200)
+        exit()

@@ -16,110 +16,118 @@ except FileNotFoundError:
     print("Aborting...")
     sys.exit(1)
 
+try:
+    os.makedirs("CTI DB/Indicators")
+except FileExistsError:
+    pass
 
 def scrape_malpedia_malware(malware):
-    response = requests.get(
-        f"https://malpedia.caad.fkie.fraunhofer.de/details/{malware}"
-    )
+    name = malware.replace(" ", "_")
+    if os.path.exists(f"CTI DB/Indicators/{name}" + "_threat_article.json"):
+        print("File already exists")
+        print("Please rename or delete the file")
+    else:
+        with open(f"CTI DB/Indicators/{name}" + "_threat_article.json", "w", newline="") as file:
+            response = requests.get(
+                f"https://malpedia.caad.fkie.fraunhofer.de/details/{malware}"
+            )
+            try:
+                soup = BeautifulSoup(response.content, "html.parser")
+                if response.status_code == 200:
+                    for row in soup.find_all("tr", class_="clickable-row clickable-row-newtab"):
+                        title = row.find("span", class_="title mono-font")
+                        url = row["data-href"]
+                        date = row.find("span", class_="date mono-font")
+                        organization = row.find("span", class_="organization mono-font")
+                        author = row.find("span", class_="authors mono-font")
+                        malware_family = row.find("a", attrs={"data-family_name": True})
+
+                        title_text = title.text if title else None
+                        date_text = date.text if date else None
+                        organization_text = organization.text if organization else None
+                        author_text = author.text if author else None
+                        malware_family_text = (
+                            malware_family.text.strip() if malware_family else None
+                        )
+
+                        entry = {
+                            "Title": title_text,
+                            "URL": url,
+                            "Date": date_text,
+                            "Organization": organization_text,
+                            "Author": author_text,
+                            "Malware Family": malware_family_text,
+                        }
+                        json.dump(entry, file, indent=4)
+                        print("Scraping: ", title_text, end="", flush=True)
+            except Exception as e:
+                print("Exception: ", e)
+
+
     try:
-        soup = BeautifulSoup(response.content, "html.parser")
-        if response.status_code == 200:
-            for row in soup.find_all("tr", class_="clickable-row clickable-row-newtab"):
-                title = row.find("span", class_="title mono-font")
-                url = row["data-href"]
-                date = row.find("span", class_="date mono-font")
-                organization = row.find("span", class_="organization mono-font")
-                author = row.find("span", class_="authors mono-font")
-                malware_family = row.find("a", attrs={"data-family_name": True})
-
-                title_text = title.text if title else None
-                date_text = date.text if date else None
-                organization_text = organization.text if organization else None
-                author_text = author.text if author else None
-                malware_family_text = (
-                    malware_family.text.strip() if malware_family else None
-                )
-
-                entry = {
-                    "Title": title_text,
-                    "URL": url,
-                    "Date": date_text,
-                    "Organization": organization_text,
-                    "Author": author_text,
-                    "Malware Family": malware_family_text,
-                }
-
-                print("Title: {}".format(entry['Title']))
-                print("URL: {}".format(entry['URL']))
-                print("Date: {}".format(entry['Date']))
-                print("Organization: {}".format(entry['Organization']))
-                print("Author: {}".format(entry['Author']))
-                print("Malware Family: {}".format(entry['Malware Family']))
-                print()
-                print('-'*50)
-    except Exception as e:
-        print("Exception: ", e)
-
-
-    try:
-        soup = BeautifulSoup(response.content, "html.parser")
-        table = soup.find("table", {"class": "table table-dark table-sm"})
-        try:
-            table.next_sibling
-            for row in soup.find_all("pre"):
-                yara = row.text
-                if yara:
-                    print("YARA: ")
-                    print(yara)
-                    print('-'*50)
-        except:
-            pass
+        if os.path.exists(f"CTI DB/Indicators/{name}" + "_yara.txt"):
+            print("File already exists")
+            print("Please rename or delete the file")
+        else:
+            with open(f"CTI DB/Indicators/{name}" + "_yara.txt", "w") as file:
+                soup = BeautifulSoup(response.content, "html.parser")
+                table = soup.find("table", {"class": "table table-dark table-sm"})
+                try:
+                    table.next_sibling
+                    for row in soup.find_all("pre"):
+                        yara = row.text
+                        if yara:
+                            file.write(yara)
+                            file.write("\n")
+                            print("Yara rule Saved...")
+                except:
+                    pass
     except Exception as e:
         print("Exception: ", e)
 
 
 def scrape_malpedia_threat_actor(threat_actor):
-    response = requests.get(
-        f"https://malpedia.caad.fkie.fraunhofer.de/actor/{threat_actor}"
-    )
-    try:
-        soup = BeautifulSoup(response.content, "html.parser")
-        if response.status_code == 200:
-            for row in soup.find_all("tr", class_="clickable-row clickable-row-newtab"):
-                title = row.find("span", class_="title mono-font")
-                url = row["data-href"]
-                date = row.find("span", class_="date mono-font")
-                organization = row.find("span", class_="organization mono-font")
-                author = row.find("span", class_="authors mono-font")
-                malware_family = row.find("a", attrs={"data-family_name": True})
+    name = threat_actor.replace(" ", "_")
+    if os.path.exists(f"CTI DB/Indicators/{name}" + "_threat_article.json"):
+        print("File already exists")
+        print("Please rename or delete the file")
+    else:
+        with open(f"CTI DB/Indicators/{name}" + "_threat_article.json", "w", newline="") as file:
+            response = requests.get(
+                f"https://malpedia.caad.fkie.fraunhofer.de/actor/{threat_actor}"
+            )
+            try:
+                soup = BeautifulSoup(response.content, "html.parser")
+                if response.status_code == 200:
+                    for row in soup.find_all("tr", class_="clickable-row clickable-row-newtab"):
+                        title = row.find("span", class_="title mono-font")
+                        url = row["data-href"]
+                        date = row.find("span", class_="date mono-font")
+                        organization = row.find("span", class_="organization mono-font")
+                        author = row.find("span", class_="authors mono-font")
+                        malware_family = row.find("a", attrs={"data-family_name": True})
 
-                title_text = title.text if title else None
-                date_text = date.text if date else None
-                organization_text = organization.text if organization else None
-                author_text = author.text if author else None
-                malware_family_text = (
-                    malware_family.text.strip() if malware_family else None
-                )
+                        title_text = title.text if title else None
+                        date_text = date.text if date else None
+                        organization_text = organization.text if organization else None
+                        author_text = author.text if author else None
+                        malware_family_text = (
+                            malware_family.text.strip() if malware_family else None
+                        )
 
-                entry = {
-                    "Title": title_text,
-                    "URL": url,
-                    "Date": date_text,
-                    "Organization": organization_text,
-                    "Author": author_text,
-                    "Malware Family": malware_family_text,
-                }
+                        entry = {
+                            "Title": title_text,
+                            "URL": url,
+                            "Date": date_text,
+                            "Organization": organization_text,
+                            "Author": author_text,
+                            "Malware Family": malware_family_text,
+                        }
 
-                print("Title: {}".format(entry['Title']))
-                print("URL: {}".format(entry['URL']))
-                print("Date: {}".format(entry['Date']))
-                print("Organization: {}".format(entry['Organization']))
-                print("Author: {}".format(entry['Author']))
-                print("Malware Family: {}".format(entry['Malware Family']))
-                print()
-                print('-'*50)
-    except Exception as e:
-        print("Exception: ", e)
+                        json.dump(entry, file, indent=4)
+                        print("Scraping: ", title_text, end="", flush=True)
+            except Exception as e:
+                print("Exception: ", e)
 
 def find_threat_actor(input):
     i = 0
