@@ -50,7 +50,7 @@ You will notice some data kept in "txt" format as I am working on how to store t
 
 ## Screenshot
 
-![image](https://github.com/HarshVanasiwala-18/Threat-Compass/assets/81178088/2e07641d-e3ce-4103-821e-e986471de1aa)
+![image](https://github.com/HarshVanasiwala-18/Threat-Compass/assets/81178088/76027382-dd06-40b1-bf7e-6258fdd207ae)
     
 ## Contact
 
