@@ -20,7 +20,7 @@ In addition to threat profiling, ThreatCompass distributes over 200 recent cyber
 
 Follow these steps to get started with Threat Compass:
 
-1. Clone the repository: `git clone https://github.com/your-username/threat-compass.git`
+1. Clone the repository: `git clone https://github.com/HarshVanasiwala-18/Threat-Compass.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the tool: `python threat_compass.py`
 4. Explore the generated threat reports and cyber news updates.
